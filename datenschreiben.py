@@ -70,11 +70,11 @@ while current_date <= today:
                 artist_escaped = entry["artist"].replace("'", "\\'").replace('"', '\\"')
                 title_escaped = entry["title"].replace("'", "\\'").replace('"', '\\"')
 
-                # Prüfe, ob dieser Song bereits existiert
-                query = f"SELECT * FROM songs WHERE date = '{date_only}' AND hour = '{time_only}' AND artist = '{artist_escaped}' LIMIT 1"
+                # Prüfe, ob bereits ein Eintrag für dieses Datum und diese Uhrzeit existiert
+                query = f"SELECT * FROM songs WHERE date = '{date_only}' AND hour = '{time_only}' LIMIT 1"
                 result = client.query(query)
 
-                # Wenn der Song nicht vorhanden ist, schreibe ihn in die Datenbank
+                # Wenn für dieses Datum und diese Uhrzeit noch kein Eintrag existiert, schreibe ihn in die Datenbank
                 if not result.get_points():
                     json_body = [
                         {
@@ -97,7 +97,7 @@ while current_date <= today:
                     client.write_points(json_body)
                     index += 1  # Erhöhe den Index für den nächsten Datensatz
                 else:
-                    print(f"Song '{entry['title']}' von {entry['artist']} bereits vorhanden, überspringe...")
+                    print(f"Eintrag für {entry['artist']} - '{entry['title']}' um {entry['time']} bereits vorhanden, überspringe...")
 
         # Eine Sekunde warten, bevor der nächste Request ausgeführt wird
         time.sleep(1)
