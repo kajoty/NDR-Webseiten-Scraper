@@ -26,6 +26,8 @@ index = 1
 # Schleife für jede Woche der letzten 10 Wochen
 current_date = weeks_ago
 while current_date <= today:
+    print(f"Verarbeite Daten für das Datum: {current_date.strftime('%Y-%m-%d')}")
+
     formatted_date = current_date.strftime("%Y-%m-%d")
 
     # Für jede Stunde von 00 bis 23 die URL abfragen
@@ -41,6 +43,8 @@ while current_date <= today:
         soup = BeautifulSoup(response.content, "html.parser")
 
         # Daten extrahieren
+        song_data = []
+
         for item in soup.find_all("li", class_="program"):
             time_element = item.find("strong", class_="time")
             artist_element = item.find("span", class_="artist")
@@ -58,12 +62,20 @@ while current_date <= today:
                 dt_object = datetime.strptime(datetime_str, "%Y-%m-%d %H:%M")  # datetime-Objekt
                 timestamp = dt_object.isoformat()  # ISO 8601 Format: '2025-02-05T12:34:00'
 
-                # Prüfe, ob dieser Song bereits zu diesem Zeitpunkt vorhanden ist
-                query = f"SELECT * FROM songs WHERE time = '{timestamp}' LIMIT 1"
+                # Extrahiere Datum und Uhrzeit für getrennte Felder
+                date_only = dt_object.strftime("%Y-%m-%d")  # z.B. '2025-02-05'
+                time_only = dt_object.strftime("%H:%M")    # z.B. '12:34'
+
+                # Escape Sonderzeichen in Künstlername und Titel (falls vorhanden)
+                artist_escaped = entry["artist"].replace("'", "\\'").replace('"', '\\"')
+                title_escaped = entry["title"].replace("'", "\\'").replace('"', '\\"')
+
+                # Prüfe, ob dieser Song bereits existiert
+                query = f"SELECT * FROM songs WHERE date = '{date_only}' AND hour = '{time_only}' AND artist = '{artist_escaped}' LIMIT 1"
                 result = client.query(query)
 
                 # Wenn der Song nicht vorhanden ist, schreibe ihn in die Datenbank
-                if not list(result.get_points()):
+                if not result.get_points():
                     json_body = [
                         {
                             "measurement": "songs",
@@ -73,8 +85,8 @@ while current_date <= today:
                             "time": timestamp,  # Zeitstempel
                             "fields": {
                                 "index": index,  # Index
-                                "date": formatted_date,  # Datum als Feld
-                                "hour": entry["time"],  # Uhrzeit als Feld
+                                "date": date_only,  # Datum als Feld
+                                "hour": time_only,  # Uhrzeit als Feld
                                 "artist": entry["artist"],  # Artist
                                 "title": entry["title"],  # Titel
                             }
@@ -85,7 +97,7 @@ while current_date <= today:
                     client.write_points(json_body)
                     index += 1  # Erhöhe den Index für den nächsten Datensatz
                 else:
-                    print(f"Song '{entry['title']}' von {entry['artist']} um {datetime_str} bereits vorhanden, überspringe...")
+                    print(f"Song '{entry['title']}' von {entry['artist']} bereits vorhanden, überspringe...")
 
         # Eine Sekunde warten, bevor der nächste Request ausgeführt wird
         time.sleep(1)
