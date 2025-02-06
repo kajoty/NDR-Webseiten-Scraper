@@ -11,7 +11,7 @@ influx_host = "192.168.178.101"
 influx_port = 8087
 influx_user = "admin"
 influx_password = "admin"
-influx_db = "infux"
+influx_db = "influx"
 
 # Berechne das heutige Datum und das Datum vor 10 Wochen
 today = datetime.now()
