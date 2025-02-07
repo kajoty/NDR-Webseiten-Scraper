@@ -21,9 +21,21 @@ influx_user = config["influx_user"]
 influx_password = config["influx_password"]
 influx_db = config["influx_db"]
 
-# Berechne das heutige Datum und das Datum vor 10 Wochen
-today = datetime.now()
-weeks_ago = today - timedelta(weeks=10)
+# Benutzer zur Eingabe der Datumsgrenzen auffordern
+def get_date_input(prompt):
+    while True:
+        date_str = input(prompt)
+        try:
+            return datetime.strptime(date_str, "%Y-%m-%d")
+        except ValueError:
+            print("Ungültiges Datum. Bitte im Format JJJJ-MM-TT eingeben.")
+
+start_date = get_date_input("Bitte Startdatum eingeben (JJJJ-MM-TT): ")
+end_date = get_date_input("Bitte Enddatum eingeben (JJJJ-MM-TT): ")
+
+if start_date > end_date:
+    print("Das Startdatum darf nicht nach dem Enddatum liegen.")
+    exit()
 
 # JSON-Dateipfad für Zwischenspeicher
 backup_file = "songs_backup.json"
@@ -42,9 +54,9 @@ client.switch_database(influx_db)
 # Zähler für den Index
 index = 1
 
-# Schleife für jede Woche der letzten 10 Wochen
-current_date = weeks_ago
-while current_date <= today:
+# Schleife für die angegebene Zeitspanne
+current_date = start_date
+while current_date <= end_date:
     print(f"Verarbeite Daten für das Datum: {current_date.strftime('%Y-%m-%d')}")
 
     formatted_date = current_date.strftime("%Y-%m-%d")
@@ -105,7 +117,7 @@ while current_date <= today:
         # Eine Sekunde warten, bevor der nächste Request ausgeführt wird
         time.sleep(1)
 
-    current_date += timedelta(days=7)
+    current_date += timedelta(days=1)
 
 # Daten in InfluxDB schreiben und Backup sichern
 if song_buffer:
