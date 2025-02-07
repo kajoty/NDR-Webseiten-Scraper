@@ -1,26 +1,29 @@
+import json
 from influxdb import InfluxDBClient
 
-# InfluxDB-Verbindungsdetails
-influx_host = "192.168.178.101"
-influx_port = 8087
-influx_user = "admin"
-influx_password = "admin"
-influx_db = "influx"
+# Lade Konfiguration aus der config.json
+with open('config.json', 'r') as f:
+    config = json.load(f)
 
-# Verbindung zur InfluxDB herstellen
-client = InfluxDBClient(host=influx_host, port=influx_port, username=influx_user, password=influx_password)
-client.switch_database(influx_db)
+# InfluxDB Verbindung herstellen
+client = InfluxDBClient(
+    host=config['influx_host'],
+    port=config['influx_port'],
+    username=config['influx_user'],
+    password=config['influx_password'],
+    database=config['influx_db']
+)
 
-# Abfrage der letzten 20 Einträge
-query = "SELECT * FROM songs ORDER BY time DESC LIMIT 20"
+# Beispielabfrage, um alle gespeicherten "radio_play" Daten anzuzeigen
+query = 'SELECT * FROM "radio_play" LIMIT 10'
+
+# Führe die Abfrage aus
 result = client.query(query)
 
-# Ergebnisse ausgeben
-print("Letzte 20 Einträge (Index | Tag | Uhrzeit | Artist | Song):")
-for point in result.get_points():
-    index = point.get('index', 'N/A')  # Sicherstellen, dass der Index vorhanden ist
-    date = point.get('date', 'Unbekannt')
-    hour = point.get('hour', 'Unbekannt')
-    artist = point.get('artist', 'Unbekannt')
-    title = point.get('title', 'Unbekannt')
-    print(f"{index} | {date} | {hour} | {artist} | {title}")
+# Überprüfe, ob Daten vorhanden sind
+if result:
+    print("Daten in der Datenbank gefunden:")
+    for point in result.get_points():
+        print(point)
+else:
+    print("Keine Daten gefunden.")
