@@ -6,12 +6,20 @@ import time
 from influxdb import InfluxDBClient
 import os
 
-# InfluxDB-Verbindungsdetails
-influx_host = "192.168.178.101"
-influx_port = 8087
-influx_user = "admin"
-influx_password = "admin"
-influx_db = "influx"
+# Lade die Konfiguration aus der JSON-Datei
+config_file = "config.json"
+
+if not os.path.exists(config_file):
+    raise FileNotFoundError(f"Konfigurationsdatei '{config_file}' nicht gefunden. Bitte erstelle sie mit den Zugangsdaten.")
+
+with open(config_file, "r") as file:
+    config = json.load(file)
+
+influx_host = config["influx_host"]
+influx_port = config["influx_port"]
+influx_user = config["influx_user"]
+influx_password = config["influx_password"]
+influx_db = config["influx_db"]
 
 # Berechne das heutige Datum und das Datum vor 10 Wochen
 today = datetime.now()
@@ -46,7 +54,13 @@ while current_date <= today:
         formatted_hour = f"{hour:02}"
         url = f"https://www.ndr.de/wellenord/programm/titelliste1204.html?date={formatted_date}&hour={formatted_hour}"
 
-        response = requests.get(url)
+        try:
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+        except requests.RequestException as e:
+            print(f"Fehler beim Abrufen von {url}: {e}")
+            continue
+
         soup = BeautifulSoup(response.content, "html.parser")
 
         for item in soup.find_all("li", class_="program"):
