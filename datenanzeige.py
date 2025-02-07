@@ -1,33 +1,29 @@
 import json
 from influxdb import InfluxDBClient
 
-# Konfigurationsdatei laden
-with open("config.json") as config_file:
-    config = json.load(config_file)
+# Lade Konfiguration aus der config.json
+with open('config.json', 'r') as f:
+    config = json.load(f)
 
-# Verbindung zur InfluxDB herstellen
+# InfluxDB Verbindung herstellen
 client = InfluxDBClient(
-    host=config["influx_host"],
-    port=config["influx_port"],
-    username=config["influx_user"],
-    password=config["influx_password"]
+    host=config['influx_host'],
+    port=config['influx_port'],
+    username=config['influx_user'],
+    password=config['influx_password'],
+    database=config['influx_db']
 )
-client.switch_database(config["influx_db"])
 
-# Abfrage der letzten 20 Songs nach Timestamp sortiert
-query = "SELECT index, date, hour, artist, title FROM songs ORDER BY time DESC LIMIT 20"
+# Beispielabfrage, um alle gespeicherten "radio_play" Daten anzuzeigen
+query = 'SELECT * FROM "radio_play" LIMIT 10'
+
+# Führe die Abfrage aus
 result = client.query(query)
 
-# Ergebnisse ausgeben
-print("Letzte 20 Einträge (Index | Datum | Uhrzeit | Artist | Song):")
-for point in result.get_points():
-    index = point.get('index')  # Jetzt ohne 'Unbekannt', da 'None' auch als 'None' erscheint
-    date = point.get('date', 'Unbekannt')
-    hour = point.get('hour', 'Unbekannt')
-    artist = point.get('artist', 'Unbekannt')
-    title = point.get('title', 'Unbekannt')
-    
-    if index is None:
-        index = 'Unbekannt'  # Falls kein Index vorhanden ist, setzen wir ihn auf 'Unbekannt'
-        
-    print(f"{index} | {date} | {hour} | {artist} | {title}")
+# Überprüfe, ob Daten vorhanden sind
+if result:
+    print("Daten in der Datenbank gefunden:")
+    for point in result.get_points():
+        print(point)
+else:
+    print("Keine Daten gefunden.")
