@@ -1,15 +1,18 @@
+import json
 from influxdb import InfluxDBClient
 
-# InfluxDB-Verbindungsdetails
-influx_host = "192.168.178.101"
-influx_port = 8087
-influx_user = "admin"
-influx_password = "admin"
-influx_db = "influx"
+# Konfigurationsdatei laden
+with open("config.json") as config_file:
+    config = json.load(config_file)
 
 # Verbindung zur InfluxDB herstellen
-client = InfluxDBClient(host=influx_host, port=influx_port, username=influx_user, password=influx_password)
-client.switch_database(influx_db)
+client = InfluxDBClient(
+    host=config["influx_host"],
+    port=config["influx_port"],
+    username=config["influx_user"],
+    password=config["influx_password"]
+)
+client.switch_database(config["influx_db"])
 
 # Abfrage der letzten 20 Einträge
 query = "SELECT * FROM songs ORDER BY time DESC LIMIT 20"
