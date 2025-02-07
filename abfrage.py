@@ -14,7 +14,7 @@ def load_config_and_stations():
         config = json.load(config_file)
 
     # Überprüfen, ob alle erforderlichen Konfigurationswerte vorhanden sind
-    required_keys = ['influx_host', 'influx_port', 'influx_user', 'influx_password', 'influx_db']
+    required_keys = ['influx_host', 'influx_port', 'influx_user', 'influx_password', 'influx_db', 'num_days']
     for key in required_keys:
         if key not in config:
             raise KeyError(f"Missing required configuration: {key}")
@@ -119,12 +119,18 @@ async def fetch_data_for_day(session, semaphore, client, station, date):
         else:
             print(f"Failed to fetch data for {station['station_name']} on {date}")
 
-# Hauptfunktion zum Abrufen der letzten 7 Tage (ohne den heutigen Tag)
-async def fetch_data():
+# Funktion zum Abrufen der letzten N Tage
+def get_dates_for_past_days(num_days):
     now = datetime.datetime.now()
-    dates = [(now - datetime.timedelta(days=i)).strftime('%Y-%m-%d') for i in range(1, 8)]
+    dates = [(now - datetime.timedelta(days=i)).strftime('%Y-%m-%d') for i in range(num_days)]
+    return dates
 
+# Hauptfunktion zum Abrufen von Daten für einen längeren Zeitraum
+async def fetch_data():
     config, stations = load_config_and_stations()
+    num_days = config.get('num_days', 7)  # Anzahl der Tage aus der config.json laden (Standard: 7 Tage)
+    dates = get_dates_for_past_days(num_days)
+
     client = initialize_influxdb(config)
 
     # Tasks für alle Stationen und Tage parallel ausführen

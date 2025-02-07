@@ -3,5 +3,6 @@
   "influx_port": 8087,
   "influx_user": "admin",
   "influx_password": "admin",
-  "influx_db": "influx"
+  "influx_db": "influx",
+  "num_days": 3
 }
