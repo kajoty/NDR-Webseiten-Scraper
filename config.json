@@ -1,0 +1,7 @@
+{
+  "influx_host": "192.168.178.101",
+  "influx_port": 8087,
+  "influx_user": "admin",
+  "influx_password": "admin",
+  "influx_db": "influx"
+}
