@@ -22,3 +22,8 @@ source myenv/bin/activate
 pip install -r requirements.txt
 ```
 
+## starten
+
+```
+python3 abfrage.py
+```
