@@ -27,3 +27,10 @@ pip install -r requirements.txt
 ```
 python3 abfrage.py
 ```
+
+# Auswertung
+
+
+```
+python3 auswertungen.py
+```
