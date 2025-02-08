@@ -1,5 +1,5 @@
 import json
-from influxdb import InfluxDBClient
+from functions.influxdb import InfluxDBClient
 
 # Lade Konfiguration aus config.json
 def load_config():

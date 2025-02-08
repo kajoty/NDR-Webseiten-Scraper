@@ -1,19 +1,19 @@
 import asyncio
-import aiohttp
 import json
 import csv
-import datetime
-from bs4 import BeautifulSoup
-from influxdb import InfluxDBClient
-from urllib.parse import urlencode, urlparse, parse_qs
+from datetime import datetime, timedelta
 from asyncio import Semaphore
+
+# Importiere die Funktionen aus dem `functions`-Verzeichnis
+from functions.fetch_data import fetch_playlist
+from functions.scrape_playlist import scrape_playlist
+from functions.influxdb import initialize_influxdb, write_to_influxdb
 
 # Lade Konfiguration und Stationen
 def load_config_and_stations():
-    with open('config.json', 'r') as config_file:
+    with open('config/config.json', 'r') as config_file:  # Pfad zur config.json geändert
         config = json.load(config_file)
 
-    # Überprüfen, ob alle erforderlichen Konfigurationswerte vorhanden sind
     required_keys = ['influx_host', 'influx_port', 'influx_user', 'influx_password', 'influx_db', 'num_days']
     for key in required_keys:
         if key not in config:
@@ -27,86 +27,16 @@ def load_config_and_stations():
     
     return config, stations
 
-# InfluxDB-Client initialisieren
-def initialize_influxdb(config):
-    return InfluxDBClient(
-        host=config['influx_host'],
-        port=config['influx_port'],
-        username=config['influx_user'],
-        password=config['influx_password'],
-        database=config['influx_db']
-    )
-
-# Asynchrone HTTP-Anfrage durchführen
-async def fetch_playlist(session, url, semaphore):
-    async with semaphore:
-        try:
-            async with session.get(url) as response:
-                response.raise_for_status()
-                return await response.text()
-        except Exception as e:
-            print(f"Error fetching {url}: {e}")
-            return None
-
-# URL mit Datum und Uhrzeit formatieren
-def format_url(base_url, date, hour):
-    parsed_url = urlparse(base_url)
-    query_params = parse_qs(parsed_url.query)
-    query_params['date'] = [date]
-    query_params['hour'] = [hour]
-
-    new_query_string = urlencode(query_params, doseq=True)
-    new_url = parsed_url._replace(query=new_query_string).geturl()
-
-    return new_url
-
-# Playlist-Daten extrahieren
-def scrape_playlist(html, station_name):
-    soup = BeautifulSoup(html, 'html.parser')
-    programs = soup.find_all('li', class_='program')
-
-    data = []
-    for program in programs:
-        time = program.find('strong', class_='time').text.strip()
-        artist_title = program.find('h3').text.strip().split(' - ')
-
-        # Sicherstellen, dass das Format korrekt ist
-        if len(artist_title) != 2:
-            continue  # Überspringe, wenn das Format nicht stimmt
-        
-        artist, title = artist_title
-
-        # Fallback für Titel, falls er leer ist
-        title = title if title else "Unbekannt"
-
-        date_str = datetime.datetime.now().strftime('%Y-%m-%d')
-
-        data.append({
-            "measurement": "music_playlist",  # Measurement geändert
-            "tags": {
-                "station": station_name  # Station als Tag hinzufügen
-            },
-            "fields": {
-                "date": date_str,
-                "time": time,
-                "artist": artist,
-                "title": title
-            }
-        })
-    return data
-
-# Daten in InfluxDB schreiben
-def write_to_influxdb(client, data):
-    try:
-        client.write_points(data)
-    except Exception as e:
-        print(f"Error writing to InfluxDB: {e}")
+# Funktion zum Abrufen der letzten N Tage
+def get_dates_for_past_days(num_days):
+    now = datetime.now()
+    return [(now - timedelta(days=i)).strftime('%Y-%m-%d') for i in range(num_days)]
 
 # Daten für einen Tag und eine Station abrufen
 async def fetch_data_for_day(session, semaphore, client, station, date):
     for hour in range(24):
         hour_str = str(hour).zfill(2)
-        formatted_url = format_url(station['url'], date, hour_str)
+        formatted_url = f"{station['url']}?date={date}&hour={hour_str}"
         
         html = await fetch_playlist(session, formatted_url, semaphore)
         if html:
@@ -119,21 +49,14 @@ async def fetch_data_for_day(session, semaphore, client, station, date):
         else:
             print(f"Failed to fetch data for {station['station_name']} on {date}")
 
-# Funktion zum Abrufen der letzten N Tage
-def get_dates_for_past_days(num_days):
-    now = datetime.datetime.now()
-    dates = [(now - datetime.timedelta(days=i)).strftime('%Y-%m-%d') for i in range(num_days)]
-    return dates
-
 # Hauptfunktion zum Abrufen von Daten für einen längeren Zeitraum
 async def fetch_data():
     config, stations = load_config_and_stations()
-    num_days = config.get('num_days', 7)  # Anzahl der Tage aus der config.json laden (Standard: 7 Tage)
+    num_days = config.get('num_days', 7)
     dates = get_dates_for_past_days(num_days)
 
     client = initialize_influxdb(config)
 
-    # Tasks für alle Stationen und Tage parallel ausführen
     async with aiohttp.ClientSession() as session:
         semaphore = Semaphore(10)
         tasks = []
@@ -143,7 +66,6 @@ async def fetch_data():
         
         await asyncio.gather(*tasks)
     
-    # InfluxDB-Client schließen
     client.close()
 
 # Asynchrone Ausführung starten

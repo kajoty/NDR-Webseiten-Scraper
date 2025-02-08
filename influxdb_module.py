@@ -1,4 +1,4 @@
-from influxdb import InfluxDBClient
+from functions.influxdb import InfluxDBClient
 from collections import Counter
 
 # InfluxDB-Client initialisieren
