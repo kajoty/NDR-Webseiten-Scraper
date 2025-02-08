@@ -1,7 +1,9 @@
+# auswertungen.py
+
 import os
 import importlib
-import config_module
-import influxdb_module
+from module.modul_config.config_module import load_config  # Pfad zum Konfigurationsmodul
+from module.modul_config.influxdb_module import initialize_influxdb, get_artist_frequency, print_most_frequent_artists_for_station
 
 def load_modules_from_directory(directory):
     # Alle Python-Dateien im Verzeichnis "directory" auflisten
@@ -13,8 +15,14 @@ def load_modules_from_directory(directory):
     return modules
 
 def main():
+    # Konfiguration laden
+    config = load_config()
+    
+    # InfluxDB-Client initialisieren
+    client = initialize_influxdb(config)
+
     # Verzeichnis für Module angeben
-    module_directory = 'module'
+    module_directory = 'module/auswertungen'
     
     # Alle verfügbaren Module laden
     available_modules = load_modules_from_directory(module_directory)
@@ -32,10 +40,9 @@ def main():
             print(f"Lade Modul: {selected_module}...")
             
             # Dynamisch das ausgewählte Modul importieren
-            module = importlib.import_module(f"module.{selected_module}")
+            module = importlib.import_module(f"module.auswertungen.{selected_module}")
             
-            # Hier können wir spezifische Funktionen des Moduls ausführen, z.B.:
-            # Wenn das Modul eine Funktion 'run' hat, die ausgeführt werden soll:
+            # Hier kannst du spezifische Funktionen des Moduls ausführen, z.B.:
             if hasattr(module, 'run'):
                 module.run()
             else:
@@ -44,6 +51,11 @@ def main():
             print("Ungültige Auswahl.")
     except ValueError:
         print("Bitte eine gültige Zahl eingeben.")
+    
+    # Beispiel für Künstlerhäufigkeit abfragen und anzeigen
+    station_name = input("Bitte den Namen der Station eingeben: ")
+    artist_counter = get_artist_frequency(client, station_name)
+    print_most_frequent_artists_for_station(artist_counter, station_name)
 
 # Skript ausführen
 if __name__ == "__main__":
