@@ -1,10 +1,10 @@
 import asyncio
 import json
 import csv
+import aiohttp  # Import hinzufügen
 from datetime import datetime, timedelta
 from asyncio import Semaphore
 
-# Importiere die Funktionen aus dem `functions`-Verzeichnis
 from functions.fetch_data import fetch_playlist
 from functions.scrape_playlist import scrape_playlist
 from functions.influxdb import initialize_influxdb, write_to_influxdb
