@@ -1,29 +1,53 @@
 import json
 from influxdb import InfluxDBClient
 
-# Lade Konfiguration aus der config.json
-with open('config.json', 'r') as f:
-    config = json.load(f)
+# Lade Konfiguration aus config.json
+def load_config():
+    with open('config.json', 'r') as config_file:
+        config = json.load(config_file)
+    return config
 
-# InfluxDB Verbindung herstellen
-client = InfluxDBClient(
-    host=config['influx_host'],
-    port=config['influx_port'],
-    username=config['influx_user'],
-    password=config['influx_password'],
-    database=config['influx_db']
-)
+# InfluxDB-Client initialisieren
+def initialize_influxdb(config):
+    return InfluxDBClient(
+        host=config['influx_host'],
+        port=config['influx_port'],
+        username=config['influx_user'],
+        password=config['influx_password'],
+        database=config['influx_db']
+    )
 
-# Beispielabfrage, um alle gespeicherten "radio_play" Daten anzuzeigen
-query = 'SELECT * FROM "radio_play" LIMIT 10'
+# Abfrage der letzten X Einträge aus der InfluxDB
+def get_last_entries(client, num_entries):
+    query = f'SELECT * FROM "music_playlist" ORDER BY time DESC LIMIT {num_entries}'
+    result = client.query(query)
+    return result.get_points()
 
-# Führe die Abfrage aus
-result = client.query(query)
+# Ausgabe der Einträge
+def display_entries(entries):
+    for entry in entries:
+        print(f"Time: {entry['time']}, Station: {entry['station']}, Artist: {entry['artist']}, Title: {entry['title']}")
 
-# Überprüfe, ob Daten vorhanden sind
-if result:
-    print("Daten in der Datenbank gefunden:")
-    for point in result.get_points():
-        print(point)
-else:
-    print("Keine Daten gefunden.")
+# Hauptfunktion
+def main():
+    # Konfiguration laden
+    config = load_config()
+
+    # Anzahl der Einträge aus config.json holen
+    num_entries = config.get('num_entries', 20)  # Standardwert: 20, wenn nicht in config.json gesetzt
+
+    # InfluxDB-Client initialisieren
+    client = initialize_influxdb(config)
+
+    # Letzte Einträge abrufen
+    entries = get_last_entries(client, num_entries)
+
+    # Einträge anzeigen
+    display_entries(entries)
+
+    # InfluxDB-Client schließen
+    client.close()
+
+# Skript ausführen
+if __name__ == "__main__":
+    main()
