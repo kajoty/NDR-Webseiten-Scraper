@@ -16,7 +16,7 @@ python3 -m venv myenv
 source myenv/bin/activate
 ```
 
-# install python-xsense & aiohttp
+# install requirements
 
 ```
 pip install -r requirements.txt
