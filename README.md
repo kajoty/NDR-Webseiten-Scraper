@@ -16,15 +16,17 @@ python3 -m venv myenv
 source myenv/bin/activate
 ```
 
-# clone rerepositories
+# clone repositories
 
 ```
 git clone https://github.com/kajoty/NDR-Webseiten-Scraper
 
 cd NDR-Webseiten-Scraper
+```
 
-install requirements
+# install requirements
 
+```
 pip install -r requirements.txt
 ```
 
@@ -32,9 +34,10 @@ pip install -r requirements.txt
 
 ```
 nano config/config.json
-
-"num_days": 50, = 50 = Anzahl der Tage welche runtergeladen werden (es sind maximal 14 Tage möglich)
 ```
+
+"num_days": 50,  | 50 = Anzahl der Tage welche runtergeladen werden (es sind maximal 14 Tage möglich)
+
 
 # starten
 
