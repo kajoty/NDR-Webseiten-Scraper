@@ -60,5 +60,11 @@ def run_by_day():
     # InfluxDB-Client schließen
     client.close()
 
-if __name__ == "__main__":
+def run():
+    """
+    Führt die Songhäufigkeit pro Tag Analyse aus.
+    """
     run_by_day()
+
+if __name__ == "__main__":
+    run()
