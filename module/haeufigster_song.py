@@ -2,19 +2,19 @@ import module.modul_config.influxdb_module as influxdb_module
 import module.modul_config.config_module as config_module
 from collections import Counter
 
-def get_song_frequency(client, station_name):
+def get_title_frequency(client, station_name):
     """
-    Abfrage der Songhäufigkeit (Titel und Künstler) für eine bestimmte Station.
+    Abfrage der Songhäufigkeit (nur Titel) für eine bestimmte Station.
     
     :param client: Der InfluxDB-Client
     :param station_name: Der Name der Station, für die die Titelhäufigkeit abgefragt wird
-    :return: Ein Counter-Objekt mit den Titel-Künstler-Kombinationen
+    :return: Ein Counter-Objekt mit den Titelhäufigkeiten
     """
-    # InfluxDB-Abfrage: Alle Titel und Künstler für die angegebene Station
+    # InfluxDB-Abfrage: Alle Titel für die angegebene Station
     query = f'''
-    SELECT "artist", "title" FROM "music_playlist" 
+    SELECT "title" FROM "music_playlist" 
     WHERE "station" = '{station_name}' 
-    GROUP BY "title", "artist"
+    GROUP BY "title"
     '''
     
     try:
@@ -24,23 +24,23 @@ def get_song_frequency(client, station_name):
         return Counter()
 
     # Ergebnisse extrahieren und Häufigkeiten zählen
-    songs = [(point['artist'], point['title']) for point in result.get_points()]
-    song_counter = Counter(songs)
+    titles = [point['title'] for point in result.get_points()]
+    title_counter = Counter(titles)
 
-    return song_counter
+    return title_counter
 
-def print_most_frequent_songs_for_station(song_counter, station_name, top_n=10):
+def print_most_frequent_titles_for_station(title_counter, station_name, top_n=10):
     """
-    Gibt die Top N der häufigsten Songs (Titel und Künstler) für eine bestimmte Station aus.
+    Gibt die Top N der häufigsten Songs (nur Titel) für eine bestimmte Station aus.
     
-    :param song_counter: Ein Counter-Objekt mit Titel-Künstler-Häufigkeiten
+    :param title_counter: Ein Counter-Objekt mit Titelhäufigkeiten
     :param station_name: Der Name der Station
     :param top_n: Die Anzahl der zu zeigenden Top-Songs
     """
     print(f"\nTop {top_n} Songs for {station_name}:")
-    # Die Songs nach Häufigkeit sortieren und die Top N ausgeben
-    for (artist, title), count in song_counter.most_common(top_n):
-        print(f"{artist} - {title}: {count} times")
+    # Die Titel nach Häufigkeit sortieren und die Top N ausgeben
+    for title, count in title_counter.most_common(top_n):
+        print(f"{title}: {count} times")
 
 def run():
     """
@@ -53,10 +53,10 @@ def run():
     # InfluxDB-Client initialisieren
     client = influxdb_module.initialize_influxdb(config)
 
-    # Für jede Station die Titel-Künstler-Häufigkeit abrufen und ausgeben
+    # Für jede Station die Titelhäufigkeit abrufen und ausgeben
     for station_name in stations:
-        song_counter = get_song_frequency(client, station_name)
-        print_most_frequent_songs_for_station(song_counter, station_name)
+        title_counter = get_title_frequency(client, station_name)
+        print_most_frequent_titles_for_station(title_counter, station_name)
 
     # InfluxDB-Client schließen
     client.close()
