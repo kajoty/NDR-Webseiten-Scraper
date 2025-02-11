@@ -38,7 +38,10 @@ def select_stations(stations):
     Der Benutzer kann eine Range (z.B. 1-3) oder einzelne Nummern (z.B. 1,3,5) eingeben.
     """
     print("Möchten Sie alle Stationen abfragen oder nur bestimmte?")
-    print(f"Verfügbare Stationen: {[f'{i+1}. {station['station_name']}' for i, station in enumerate(stations)]}")
+    print("Verfügbare Stationen:")
+    for i, station in enumerate(stations):
+        print(f"{i+1}. {station['station_name']}")  # Stationen in einer Schleife auflisten
+
     choice = input("Geben Sie 'alle' für alle Stationen oder eine durch Komma getrennte Liste von Zahlen oder eine Range (z.B. 1-3) an: ").strip().lower()
 
     if choice == "alle":
