@@ -32,6 +32,37 @@ def load_config_and_stations():
     return config, stations
 
 
+def parse_station_selection(choice, stations):
+    """
+    Parst die vom Benutzer eingegebene Auswahl und gibt eine Liste der ausgewählten Stationen zurück.
+    Unterstützt sowohl einfache Zahlen als auch Bereiche (z.B. 1-3, 2,4).
+    """
+    selected_stations = []
+
+    # Teile die Eingabe anhand von Kommas
+    for part in choice.split(','):
+        # Wenn ein Bereich angegeben wird (z.B. 1-3)
+        if '-' in part:
+            try:
+                start, end = map(int, part.split('-'))
+                # Range von start bis end (einschließlich)
+                selected_stations.extend(range(start-1, end))  # -1 wegen Index-Anpassung
+            except ValueError:
+                print(f"Ungültige Range: {part}.")
+        else:
+            try:
+                index = int(part.strip()) - 1  # Index anpassen
+                if 0 <= index < len(stations):
+                    selected_stations.append(index)
+                else:
+                    print(f"Ungültige Station: {part}.")
+            except ValueError:
+                print(f"Ungültige Eingabe: {part}.")
+    
+    # Entferne doppelte Stationen und gib sie in der Liste zurück
+    return list(sorted(set(selected_stations)))
+
+
 def select_stations(stations):
     """
     Erlaubt dem Benutzer, entweder alle Stationen auszuwählen oder bestimmte über Nummern.
@@ -47,26 +78,15 @@ def select_stations(stations):
     if choice == "alle":
         return stations  # Alle Stationen zurückgeben
     
-    # Überprüfen, ob der Benutzer eine Range oder einzelne Stationen gewählt hat
-    selected_stations = []
-    try:
-        # Überprüfen, ob eine Range angegeben wurde
-        if '-' in choice:
-            start, end = map(int, choice.split('-'))
-            selected_stations = stations[start-1:end]  # Index anpassen, da Stationen bei 1 beginnen
-        else:
-            # Wenn keine Range, dann einzelne Zahlen (z.B. 1,3,5)
-            chosen_indexes = [int(station.strip())-1 for station in choice.split(',')]  # Index anpassen
-            selected_stations = [stations[i] for i in chosen_indexes if 0 <= i < len(stations)]
-        
-        if not selected_stations:
-            print("Keine gültigen Stationen ausgewählt.")
-            return []
-        
-        return selected_stations
-    except ValueError:
-        print("Ungültige Eingabe. Bitte geben Sie gültige Zahlen oder eine gültige Range ein.")
+    # Verarbeite die Eingabe und gib die entsprechenden Stationen zurück
+    selected_indexes = parse_station_selection(choice, stations)
+    if not selected_indexes:
+        print("Keine gültigen Stationen ausgewählt.")
         return []
+
+    # Erstelle eine Liste der Stationen basierend auf den ausgewählten Indizes
+    selected_stations = [stations[i] for i in selected_indexes]
+    return selected_stations
 
 
 async def fetch_data_for_day(session, semaphore, client, station, date):
