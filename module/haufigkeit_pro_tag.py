@@ -1,3 +1,8 @@
+import pandas as pd
+from collections import Counter
+import module.modul_config.influxdb_module as influxdb_module
+import module.modul_config.config_module as config_module
+
 def get_song_frequency_by_station_and_time_of_day(client, station_name):
     """
     Abfrage der Songhäufigkeit nach Station und Tageszeit.
