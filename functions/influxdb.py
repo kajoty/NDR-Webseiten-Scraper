@@ -1,36 +1,39 @@
 from influxdb import InfluxDBClient
 
+# Funktion zur Initialisierung einer Verbindung zur InfluxDB
 def initialize_influxdb(config):
     """
-    Initialisiert und gibt eine InfluxDBClient-Verbindung zurück.
+    Erstellt und gibt eine Verbindung zur InfluxDB zurück.
+    Die Verbindungsdaten werden aus der übergebenen Konfiguration ausgelesen.
     """
     return InfluxDBClient(
-        host=config['influx_host'],
-        port=config['influx_port'],
-        username=config['influx_user'],
-        password=config['influx_password'],
-        database=config['influx_db']
+        host=config['influx_host'],  # Hostname oder IP-Adresse des InfluxDB-Servers
+        port=config['influx_port'],  # Port der InfluxDB
+        username=config['influx_user'],  # Benutzername für die Authentifizierung
+        password=config['influx_password'],  # Passwort für die Authentifizierung
+        database=config['influx_db']  # Name der zu verwendenden Datenbank
     )
 
+# Funktion zum Schreiben von Daten in die InfluxDB
 def write_to_influxdb(client, data):
     """
-    Überprüft, ob der Datensatz bereits in der InfluxDB existiert, basierend auf der Checksumme.
-    Wenn der Datensatz nicht existiert, wird er in die InfluxDB geschrieben.
+    Überprüft, ob ein Datensatz bereits in der InfluxDB existiert, indem die Checksumme abgefragt wird.
+    Falls der Datensatz noch nicht existiert, wird er in die Datenbank geschrieben.
     """
     try:
         for entry in data:
-            checksum = entry['fields']['checksum']  # Holen des Checksumme-Werts zur Duplikatprüfung
+            checksum = entry['fields']['checksum']  # Extrahieren der Checksumme zur Duplikatsprüfung
             
-            # Prüfen, ob der Checksumme-Wert bereits existiert (Abfrage auf vorhandene Daten)
+            # Abfrage in der Datenbank, um zu prüfen, ob die Checksumme bereits existiert
             query = f'SELECT * FROM "music_playlist" WHERE "checksum" = \'{checksum}\' LIMIT 1'
             result = client.query(query)
             
-            # Wenn das Ergebnis leer ist, können wir den Datensatz schreiben
+            # Wenn kein Eintrag mit dieser Checksumme existiert, wird der Datensatz gespeichert
             if len(list(result.get_points())) == 0:
-                client.write_points([entry])
-                print(f"Data written to InfluxDB for checksum {checksum}")
+                client.write_points([entry])  # Schreiben des neuen Datensatzes in die Datenbank
+                print(f"Daten wurden in InfluxDB für Checksumme {checksum} gespeichert.")
             else:
-                print(f"Duplicate found for checksum {checksum}, skipping write.")
+                print(f"Duplikat gefunden für Checksumme {checksum}, Eintrag wird übersprungen.")
                 
     except Exception as e:
-        print(f"Error writing to InfluxDB: {e}")
+        print(f"Fehler beim Schreiben in die InfluxDB: {e}")
