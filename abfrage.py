@@ -27,11 +27,6 @@ def load_config_and_stations():
     
     return config, stations
 
-# Funktion zum Abrufen der letzten N Tage
-def get_dates_for_past_days(num_days):
-    now = datetime.now()
-    return [(now - timedelta(days=i)).strftime('%Y-%m-%d') for i in range(num_days)]
-
 # Daten für einen Tag und eine Station abrufen
 async def fetch_data_for_day(session, semaphore, client, station, date):
     for hour in range(24):
@@ -53,7 +48,10 @@ async def fetch_data_for_day(session, semaphore, client, station, date):
 async def fetch_data():
     config, stations = load_config_and_stations()
     num_days = config.get('num_days', 7)
-    dates = get_dates_for_past_days(num_days)
+
+    # Berechnung der letzten num_days Tage direkt in der Hauptfunktion
+    now = datetime.now()
+    dates = [(now - timedelta(days=i)).strftime('%Y-%m-%d') for i in range(num_days)]
 
     client = initialize_influxdb(config)
 
