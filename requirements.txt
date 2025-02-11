@@ -1,6 +1,4 @@
-influxdb
-influxdb-client
 aiohttp
 beautifulsoup4
 pandas
-pytz
+influxdb
