@@ -23,15 +23,19 @@ def get_song_frequency(client, station_name, time_range='24h'):
     # Konvertiere das Startdatum in das richtige Format für InfluxDB
     start_time_str = start_time.strftime('%Y-%m-%dT%H:%M:%SZ')
 
+    print(f"Abfragezeitraum: {start_time_str}")  # Debugging
+
     # InfluxDB-Abfrage: Alle Titel für die angegebene Station im gewünschten Zeitraum
     query = f'''
     SELECT "title" FROM "music_playlist" 
     WHERE "station" = '{station_name}' AND "played_date" >= '{start_time_str}' 
     GROUP BY "title"
     '''
-    
+    print(f"Abfrage: {query}")  # Debugging
+
     try:
         result = client.query(query)
+        print("Abfrageergebnisse:", result)  # Debugging
     except Exception as e:
         print(f"Fehler bei der Abfrage für Station {station_name}: {e}")
         return Counter()

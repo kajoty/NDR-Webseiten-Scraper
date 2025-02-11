@@ -4,6 +4,6 @@
   "influx_user": "admin",
   "influx_password": "admin",
   "influx_db": "influx",
-  "num_days": 50,
+  "num_days": 4,
   "num_entries":10
 }
