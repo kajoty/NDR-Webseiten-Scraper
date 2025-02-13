@@ -1,0 +1,2702 @@
+[
+    {
+        "time": "2025-02-13T21:24:26.756605Z",
+        "artist": "Fine young Cannibals",
+        "checksum": "50d83b4d5b156f670bbd7f1549f52a665d09489289595a4a09aaebb245d965ed",
+        "played_date": "2025-02-07",
+        "played_time": "23:56",
+        "station": "Welle Nord",
+        "title": "She drives me crazy"
+    },
+    {
+        "time": "2025-02-13T21:24:26.611933Z",
+        "artist": "Elvis Presley",
+        "checksum": "0da0c47a9f72ef0be98b178b394a0da18061ced76230d48083f0d94b51097d12",
+        "played_date": "2025-02-07",
+        "played_time": "23:54",
+        "station": "Welle Nord",
+        "title": "Return to sender"
+    },
+    {
+        "time": "2025-02-13T21:24:26.482469Z",
+        "artist": "Rainbirds",
+        "checksum": "e6084615e304193ef54c25a8cb147b96dd54988c7f05159ac2f9d138acdc7859",
+        "played_date": "2025-02-07",
+        "played_time": "23:50",
+        "station": "Welle Nord",
+        "title": "Blueprint (Single Version)"
+    },
+    {
+        "time": "2025-02-13T21:24:26.198456Z",
+        "artist": "Steve Miller Band",
+        "checksum": "e3d7b30a6b0835e2a22ce2bacd6ef3046836b293477fd0a2eea1ad799bbf741f",
+        "played_date": "2025-02-07",
+        "played_time": "23:47",
+        "station": "Welle Nord",
+        "title": "Jet airliner"
+    },
+    {
+        "time": "2025-02-13T21:24:26.040406Z",
+        "artist": "Udo Lindenberg",
+        "checksum": "26d56107a281a6d1e849e45ff752a4f3f6a968ac46000c053081d2cf128e2920",
+        "played_date": "2025-02-07",
+        "played_time": "23:43",
+        "station": "Welle Nord",
+        "title": "Club der Million\u00e4re"
+    },
+    {
+        "time": "2025-02-13T21:24:25.892163Z",
+        "artist": "Albert Hammond",
+        "checksum": "eea9eedd4fc13066d751152def657618a82db97051c69a15850372b34ffc1895",
+        "played_date": "2025-02-07",
+        "played_time": "23:38",
+        "station": "Welle Nord",
+        "title": "When I'm gone"
+    },
+    {
+        "time": "2025-02-13T21:24:25.776024Z",
+        "artist": "Freddie Mercury",
+        "checksum": "678f1f0f785c633ea925717bc324407cff2e86d777f0ba99f43ff8f27bec100e",
+        "played_date": "2025-02-07",
+        "played_time": "23:34",
+        "station": "Welle Nord",
+        "title": "Living on my own"
+    },
+    {
+        "time": "2025-02-13T21:24:25.621934Z",
+        "artist": "Suzi Quatro",
+        "checksum": "e26f98bb9099638b0c73e0e6e623171ad26f838567e779b855e74de7e8a13e79",
+        "played_date": "2025-02-07",
+        "played_time": "23:31",
+        "station": "Welle Nord",
+        "title": "Don't change my luck"
+    },
+    {
+        "time": "2025-02-13T21:24:25.468515Z",
+        "artist": "Hooters",
+        "checksum": "b24d6868ed1ed059d0f77afa1ef74a7312b04efc2aff2d727c4d5b5b2337b195",
+        "played_date": "2025-02-07",
+        "played_time": "23:26",
+        "station": "Welle Nord",
+        "title": "All you zombies"
+    },
+    {
+        "time": "2025-02-13T21:24:25.322538Z",
+        "artist": "Annett Louisan",
+        "checksum": "b02a95db15e24cac18946fef483d8f16ff650994bcb1505b2a0473ae515ceeb1",
+        "played_date": "2025-02-07",
+        "played_time": "23:23",
+        "station": "Welle Nord",
+        "title": "Das Gef\u00fchl"
+    },
+    {
+        "time": "2025-02-13T21:24:25.205380Z",
+        "artist": "Bruce Hornsby + The Range",
+        "checksum": "e6965ea05aaab2304ce79bef4c24525c250207f68d2abf7d0b6b69b79b566814",
+        "played_date": "2025-02-07",
+        "played_time": "23:19",
+        "station": "Welle Nord",
+        "title": "The way it is"
+    },
+    {
+        "time": "2025-02-13T21:24:25.053298Z",
+        "artist": "Genesis",
+        "checksum": "e260e847da53016f8de8bcfd1219a3f7efa47cad28561f7c74a0f504d003b577",
+        "played_date": "2025-02-07",
+        "played_time": "23:15",
+        "station": "Welle Nord",
+        "title": "Follow you follow me"
+    },
+    {
+        "time": "2025-02-13T21:24:24.790474Z",
+        "artist": "Mrs. Greenbird",
+        "checksum": "8372ef1ec259e1d9ba88cabb0c2198bcb663ed9c6ab9f9024985dc175a925944",
+        "played_date": "2025-02-07",
+        "played_time": "23:11",
+        "station": "Welle Nord",
+        "title": "Shooting Stars + Fairy Tales"
+    },
+    {
+        "time": "2025-02-13T21:24:24.649758Z",
+        "artist": "Tavares",
+        "checksum": "7e2d4d0a58825221e7ad1d3ae95b7c8336199644f631f3835c9d33577b5c638a",
+        "played_date": "2025-02-07",
+        "played_time": "23:07",
+        "station": "Welle Nord",
+        "title": "Heaven must be missing an angel"
+    },
+    {
+        "time": "2025-02-13T21:24:24.530416Z",
+        "artist": "Dire Straits",
+        "checksum": "48699e913be42e61f5d36dc574e45188632273c09d32cbb054648f30f1201f17",
+        "played_date": "2025-02-07",
+        "played_time": "23:04",
+        "station": "Welle Nord",
+        "title": "Walk of life"
+    },
+    {
+        "time": "2025-02-13T21:24:24.183780Z",
+        "artist": "Arlo Guthrie",
+        "checksum": "5b5e7934eb1b05f6fd12fde882d0b385370f50b0f4f6eeabc42d8a5dafbb52cc",
+        "played_date": "2025-02-10",
+        "played_time": "23:57",
+        "station": "Welle Nord",
+        "title": "City of New Orleans"
+    },
+    {
+        "time": "2025-02-13T21:24:24.029757Z",
+        "artist": "Scorpions",
+        "checksum": "b4c6f71a1be5e314ab9b2028b45d15f6de4f1a65cdc71fb57dbcc965ff359db8",
+        "played_date": "2025-02-10",
+        "played_time": "23:53",
+        "station": "Welle Nord",
+        "title": "Still loving you"
+    },
+    {
+        "time": "2025-02-13T21:24:23.868392Z",
+        "artist": "Gareth Gates",
+        "checksum": "65df4c4ebdd61a4a38f3d5efbc8788dba4dd702f3187d66dfa70e04138f2fc0e",
+        "played_date": "2025-02-10",
+        "played_time": "23:50",
+        "station": "Welle Nord",
+        "title": "Anyone of us (Stupid mistake)"
+    },
+    {
+        "time": "2025-02-13T21:24:23.740621Z",
+        "artist": "Cat Stevens",
+        "checksum": "cc6b1b936480340f9ed9c577504c9abe9ffbae600237a9fd57ed9beedba437e9",
+        "played_date": "2025-02-10",
+        "played_time": "23:47",
+        "station": "Welle Nord",
+        "title": "Father and son"
+    },
+    {
+        "time": "2025-02-13T21:24:23.579587Z",
+        "artist": "Annette Humpe; Inga Humpe",
+        "checksum": "0afc4b9bbb145e10ccd587cace372f91bce74673cd0dce72a23f8d028d510e18",
+        "played_date": "2025-02-10",
+        "played_time": "23:43",
+        "station": "Welle Nord",
+        "title": "Careless love"
+    },
+    {
+        "time": "2025-02-13T21:24:23.431266Z",
+        "artist": "Udo Lindenberg",
+        "checksum": "593dd58cee9b1bb4ef9badfdfd2044bb3c66f484f6fcd7c0e2886206341bc39a",
+        "played_date": "2025-02-10",
+        "played_time": "23:39",
+        "station": "Welle Nord",
+        "title": "Du knallst in mein Leben"
+    },
+    {
+        "time": "2025-02-13T21:24:23.279425Z",
+        "artist": "Walker Brothers",
+        "checksum": "17c92e9d9826314eb1c4a9384ff0b61415fa52595e27d40f08cc7273e32a68a5",
+        "played_date": "2025-02-10",
+        "played_time": "23:35",
+        "station": "Welle Nord",
+        "title": "The sun ain't gonna shine anymore"
+    },
+    {
+        "time": "2025-02-13T21:24:23.147558Z",
+        "artist": "Men At Work",
+        "checksum": "a6268d7f01618010ffc11ad9231f21543fc69427f7722f4911dbeee468cc40fe",
+        "played_date": "2025-02-10",
+        "played_time": "23:31",
+        "station": "Welle Nord",
+        "title": "Who can it be now?"
+    },
+    {
+        "time": "2025-02-13T21:24:22.995687Z",
+        "artist": "Kylie Minogue",
+        "checksum": "7424088b140b64aea90c94ead45570264125b06b39a6a41be024dec4bfa3fed1",
+        "played_date": "2025-02-10",
+        "played_time": "23:29",
+        "station": "Welle Nord",
+        "title": "Tears on my Pillow"
+    },
+    {
+        "time": "2025-02-13T21:24:22.800230Z",
+        "artist": "Elton John",
+        "checksum": "3a562732be16fc4f8d9ea027c8d4115b3d529c39f81f77f08149ad64e54268f1",
+        "played_date": "2025-02-10",
+        "played_time": "23:25",
+        "station": "Welle Nord",
+        "title": "Little Jeannie"
+    },
+    {
+        "time": "2025-02-13T21:24:22.655010Z",
+        "artist": "UB 40",
+        "checksum": "4fabed74050bc3cba287e58ee849dd576b6b1caa85086c2dcaf9551d3d82af20",
+        "played_date": "2025-02-10",
+        "played_time": "23:22",
+        "station": "Welle Nord",
+        "title": "(I can't help) Falling in love with you"
+    },
+    {
+        "time": "2025-02-13T21:24:22.492564Z",
+        "artist": "Abba",
+        "checksum": "b9e90b71511c24700c54e5c72fd0dd31aa39eab6e217d1b34f2f7f55c3abe83a",
+        "played_date": "2025-02-10",
+        "played_time": "23:18",
+        "station": "Welle Nord",
+        "title": "Mamma mia"
+    },
+    {
+        "time": "2025-02-13T21:24:22.182173Z",
+        "artist": "Mink DeVille",
+        "checksum": "acd2ac19badce8d8d42d0792f8c7c28765f547e7d8e3b8fecf100638111bf67c",
+        "played_date": "2025-02-10",
+        "played_time": "23:14",
+        "station": "Welle Nord",
+        "title": "Each word's a beat of my heart"
+    },
+    {
+        "time": "2025-02-13T21:24:21.963605Z",
+        "artist": "Tremeloes",
+        "checksum": "214ae23e5331b28b9cd8ea9e8d05adb080e572447690723ee6fe50384caab4a4",
+        "played_date": "2025-02-10",
+        "played_time": "23:11",
+        "station": "Welle Nord",
+        "title": "Silence is golden"
+    },
+    {
+        "time": "2025-02-13T21:24:21.839926Z",
+        "artist": "Peter Fox",
+        "checksum": "376757deb98ac549d3dc9ca038854998f0619827a1f5a9bbbb90fd49968b5ebf",
+        "played_date": "2025-02-10",
+        "played_time": "23:07",
+        "station": "Welle Nord",
+        "title": "Haus am See"
+    },
+    {
+        "time": "2025-02-13T21:24:21.672608Z",
+        "artist": "Sally Oldfield",
+        "checksum": "3751b6a9015411d3797c8f702ff4c074483ab65d181a5f8eee3c4dfa34becc98",
+        "played_date": "2025-02-10",
+        "played_time": "23:03",
+        "station": "Welle Nord",
+        "title": "Silver dagger"
+    },
+    {
+        "time": "2025-02-13T21:24:21.359261Z",
+        "artist": "Chic",
+        "checksum": "bc64f7e1c1f91bc92d10f1342fec59f52bb63f0a240072b908ff76a16fdf8e79",
+        "played_date": "2025-02-08",
+        "played_time": "23:56",
+        "station": "Welle Nord",
+        "title": "Le freak"
+    },
+    {
+        "time": "2025-02-13T21:24:21.165332Z",
+        "artist": "Shakira",
+        "checksum": "53f028c5a48c87b34a5fd3bcd29a7c377de8c702d8071fb4a8973b3d8757ac12",
+        "played_date": "2025-02-08",
+        "played_time": "23:52",
+        "station": "Welle Nord",
+        "title": "Underneath your clothes"
+    },
+    {
+        "time": "2025-02-13T21:24:21.049320Z",
+        "artist": "The Moody Blues",
+        "checksum": "58e052dfdddc0a5a0545ee5e40c806a5c94cf2ebf63e8a0d862479a8c217313f",
+        "played_date": "2025-02-08",
+        "played_time": "23:49",
+        "station": "Welle Nord",
+        "title": "Your wildest dreams"
+    },
+    {
+        "time": "2025-02-13T21:24:20.903999Z",
+        "artist": "The Bee Gees",
+        "checksum": "8d59306bd276327c841d24fc778c06b542231f1de994187f47e3dde19ab6cbce",
+        "played_date": "2025-02-08",
+        "played_time": "23:46",
+        "station": "Welle Nord",
+        "title": "More than a woman"
+    },
+    {
+        "time": "2025-02-13T21:24:20.745192Z",
+        "artist": "Michael Jackson; Paul McCartney",
+        "checksum": "0cc6b92750c1609e41dda9dee3d83ea24657ddf27cc14fdfc20c3a1477f356e1",
+        "played_date": "2025-02-08",
+        "played_time": "23:42",
+        "station": "Welle Nord",
+        "title": "The girl is mine"
+    },
+    {
+        "time": "2025-02-13T21:24:20.602321Z",
+        "artist": "Westernhagen",
+        "checksum": "ae7d33a4e7276b2d229a92a8705dd7b08ada70caf059659744368604f90512e4",
+        "played_date": "2025-02-08",
+        "played_time": "23:38",
+        "station": "Welle Nord",
+        "title": "Es geht mir gut"
+    },
+    {
+        "time": "2025-02-13T21:24:20.487900Z",
+        "artist": "The Hollies",
+        "checksum": "380fd2ac06a0d1ffbc170849dc742ffaf319a6e382a6db10c0a02a8fb8d609da",
+        "played_date": "2025-02-08",
+        "played_time": "23:34",
+        "station": "Welle Nord",
+        "title": "Carrie Anne"
+    },
+    {
+        "time": "2025-02-13T21:24:20.339797Z",
+        "artist": "Camouflage",
+        "checksum": "76375aceed589deb5a8cfa4f5762d9de203fb04a60baaab1dad6819ad4c1cbb1",
+        "played_date": "2025-02-08",
+        "played_time": "23:30",
+        "station": "Welle Nord",
+        "title": "Love is a shield"
+    },
+    {
+        "time": "2025-02-13T21:24:20.193050Z",
+        "artist": "Elton John",
+        "checksum": "a7bbe171689df7075ee409c76ca345671a378274a17b0fb7e2718995f334c492",
+        "played_date": "2025-02-08",
+        "played_time": "23:26",
+        "station": "Welle Nord",
+        "title": "Club at the end of the street"
+    },
+    {
+        "time": "2025-02-13T21:24:20.050807Z",
+        "artist": "Eric Clapton",
+        "checksum": "54fe224d502bc4243d6ad1c1cf06a7138316a7896b26662d3d6d679f0e31b1d2",
+        "played_date": "2025-02-08",
+        "played_time": "23:23",
+        "station": "Welle Nord",
+        "title": "Promises"
+    },
+    {
+        "time": "2025-02-13T21:24:19.922492Z",
+        "artist": "R.E.M.",
+        "checksum": "16f17e11b487632c08318034713256df4e99c766f4f2593efd91a45462f5fbec",
+        "played_date": "2025-02-08",
+        "played_time": "23:18",
+        "station": "Welle Nord",
+        "title": "Man on the moon"
+    },
+    {
+        "time": "2025-02-13T21:24:19.784115Z",
+        "artist": "R. B. Greaves",
+        "checksum": "ac0512431f93fe49c31a0310fff7cff9c4bd5a25a531335952929ef891f6bcd3",
+        "played_date": "2025-02-08",
+        "played_time": "23:14",
+        "station": "Welle Nord",
+        "title": "Take a letter, Maria"
+    },
+    {
+        "time": "2025-02-13T21:24:19.629060Z",
+        "artist": "Jennifer Rush",
+        "checksum": "829ef5215a9c686892d7ffe57472afc4d0f2fd077c843edf8e0c39cbe9befa25",
+        "played_date": "2025-02-08",
+        "played_time": "23:11",
+        "station": "Welle Nord",
+        "title": "Destiny"
+    },
+    {
+        "time": "2025-02-13T21:24:19.482310Z",
+        "artist": "Johannes Oerding",
+        "checksum": "6a7598e5bfd21a862eb5470bf95cf874abbacb79c2bbf852ded86c2863edc023",
+        "played_date": "2025-02-08",
+        "played_time": "23:07",
+        "station": "Welle Nord",
+        "title": "Alles brennt"
+    },
+    {
+        "time": "2025-02-13T21:24:19.327717Z",
+        "artist": "Sheena Easton",
+        "checksum": "57b0dfefdde96c258ceb98975cac24d75a8e79f7d9f2ad70a24ba81bad56c7b6",
+        "played_date": "2025-02-08",
+        "played_time": "23:03",
+        "station": "Welle Nord",
+        "title": "Nine to five (9 to 5)"
+    },
+    {
+        "time": "2025-02-13T21:24:19.077819Z",
+        "artist": "Flying Pickets",
+        "checksum": "c11a40bdec8a95641f3bb03019668bac4f0ad9c937570c0a0cd03968d2c6863c",
+        "played_date": "2025-02-09",
+        "played_time": "23:57",
+        "station": "Welle Nord",
+        "title": "Only you"
+    },
+    {
+        "time": "2025-02-13T21:24:18.960219Z",
+        "artist": "McCoys",
+        "checksum": "b061030192cdfef6c06bda7db6fccae234e9123561ba29c8b5d8c80403c96776",
+        "played_date": "2025-02-09",
+        "played_time": "23:53",
+        "station": "Welle Nord",
+        "title": "Hang on sloopy"
+    },
+    {
+        "time": "2025-02-13T21:24:18.803099Z",
+        "artist": "Eric Carmen",
+        "checksum": "0e976b4296d3bff4cbfebce8d3db4af89222a9a26176676ee76e4b900974a335",
+        "played_date": "2025-02-09",
+        "played_time": "23:50",
+        "station": "Welle Nord",
+        "title": "Hungry eyes"
+    },
+    {
+        "time": "2025-02-13T21:24:18.653526Z",
+        "artist": "Middle of the Road",
+        "checksum": "67d8e3c2c627c73ab44222f65742369b4a7f1cfcce63361785fd4ed9d944918c",
+        "played_date": "2025-02-09",
+        "played_time": "23:46",
+        "station": "Welle Nord",
+        "title": "Chirpy chirpy cheep cheep"
+    },
+    {
+        "time": "2025-02-13T21:24:18.510862Z",
+        "artist": "Stephan Remmler",
+        "checksum": "f4fe931af01319c37aa34f0e8ba2c7283b746466b275f87347615c12d6565087",
+        "played_date": "2025-02-09",
+        "played_time": "23:42",
+        "station": "Welle Nord",
+        "title": "Vogel der Nacht"
+    },
+    {
+        "time": "2025-02-13T21:24:18.388528Z",
+        "artist": "Marvin Gaye",
+        "checksum": "efb6b69e496b6b6e49b8947f1ed209cf7454a6716567923925455b7e20f40890",
+        "played_date": "2025-02-09",
+        "played_time": "23:38",
+        "station": "Welle Nord",
+        "title": "Sexual healing"
+    },
+    {
+        "time": "2025-02-13T21:24:18.245281Z",
+        "artist": "Heart",
+        "checksum": "578a941885c25ac28b9943f4d31749093c3dbf2e8f1c963b37639651a24e5c0f",
+        "played_date": "2025-02-09",
+        "played_time": "23:34",
+        "station": "Welle Nord",
+        "title": "All I wanna do is make love to you"
+    },
+    {
+        "time": "2025-02-13T21:24:18.098141Z",
+        "artist": "Sweet",
+        "checksum": "0502c8016834ad2ff222468f918133c269fde659d9646c2dd453ee14a9b7346c",
+        "played_date": "2025-02-09",
+        "played_time": "23:31",
+        "station": "Welle Nord",
+        "title": "Poppa Joe"
+    },
+    {
+        "time": "2025-02-13T21:24:17.956305Z",
+        "artist": "Bertie Higgins",
+        "checksum": "ec4504592a470d8f113da0b5e90220dcc5bfe6be2202c331f12aeb5b24263056",
+        "played_date": "2025-02-09",
+        "played_time": "23:27",
+        "station": "Welle Nord",
+        "title": "Key Largo"
+    },
+    {
+        "time": "2025-02-13T21:24:17.840125Z",
+        "artist": "Pur",
+        "checksum": "0b9d0f492cb5974c206401e2df19f45806c173328b4ec4410023f96ed908baa6",
+        "played_date": "2025-02-09",
+        "played_time": "23:24",
+        "station": "Welle Nord",
+        "title": "Beinah"
+    },
+    {
+        "time": "2025-02-13T21:24:17.685558Z",
+        "artist": "Frank Sinatra; Nancy Sinatra",
+        "checksum": "a7ae31906c0e58602faf81a6de3c0a1dc95ea3a62d504bab504bd1a43d240195",
+        "played_date": "2025-02-09",
+        "played_time": "23:21",
+        "station": "Welle Nord",
+        "title": "Something stupid"
+    },
+    {
+        "time": "2025-02-13T21:24:17.533469Z",
+        "artist": "Shakin' Stevens",
+        "checksum": "f3ee50049d21a05ab9a78924b3a3bae5ad9c9262bb6bff0b35dd89ee2efe0e41",
+        "played_date": "2025-02-09",
+        "played_time": "23:17",
+        "station": "Welle Nord",
+        "title": "A love worth waiting for"
+    },
+    {
+        "time": "2025-02-13T21:24:17.391619Z",
+        "artist": "Cats",
+        "checksum": "69b39976f92c28cad82ba7ee398e445ed577c3073ab4bb02bb455dca6e67e2ec",
+        "played_date": "2025-02-09",
+        "played_time": "23:14",
+        "station": "Welle Nord",
+        "title": "One way wind"
+    },
+    {
+        "time": "2025-02-13T21:24:17.271982Z",
+        "artist": "Michael Schulte",
+        "checksum": "c2a320de351a6642e270f4002d9239f9454325f1a7e4349ebad8110f99eecb5f",
+        "played_date": "2025-02-09",
+        "played_time": "23:11",
+        "station": "Welle Nord",
+        "title": "You let me walk alone (ESC 2018)"
+    },
+    {
+        "time": "2025-02-13T21:24:17.120969Z",
+        "artist": "Smokie",
+        "checksum": "3690b095daaf6df7c7bcb20c7873efacb401a1ffe8a846e62998271c12f4db9c",
+        "played_date": "2025-02-09",
+        "played_time": "23:07",
+        "station": "Welle Nord",
+        "title": "If you think you know how to love me"
+    },
+    {
+        "time": "2025-02-13T21:24:16.959295Z",
+        "artist": "Rod Stewart",
+        "checksum": "eeaa98a2e26881988d965a4df19968897dac38a4ea270b3329d27ffba4932b65",
+        "played_date": "2025-02-09",
+        "played_time": "23:03",
+        "station": "Welle Nord",
+        "title": "Young Turks"
+    },
+    {
+        "time": "2025-02-13T21:24:16.620039Z",
+        "artist": "Medicine Head",
+        "checksum": "76f31c19c4d710dc21bd1fa0270ddb62eeb707f9b7aabeb121dc532089125cb8",
+        "played_date": "2025-02-05",
+        "played_time": "23:57",
+        "station": "Welle Nord",
+        "title": "One and one is one"
+    },
+    {
+        "time": "2025-02-13T21:24:16.498400Z",
+        "artist": "C\u00e9line Dion",
+        "checksum": "4655db855114fe0d8577a34381dfab583cf3964b2617d56f3b49493ec2fc0c55",
+        "played_date": "2025-02-05",
+        "played_time": "23:52",
+        "station": "Welle Nord",
+        "title": "A new day has come"
+    },
+    {
+        "time": "2025-02-13T21:24:16.347833Z",
+        "artist": "Elton John",
+        "checksum": "e955e0a63fd23c1ac503597f5d0847bbd47e6860d494fffe3f6bdd8fbd260650",
+        "played_date": "2025-02-05",
+        "played_time": "23:48",
+        "station": "Welle Nord",
+        "title": "Nikita"
+    },
+    {
+        "time": "2025-02-13T21:24:16.190584Z",
+        "artist": "Albert Hammond",
+        "checksum": "727954b552be829838f135539e16158ba47b8203ed80e027e8946e8ebd7bcf2b",
+        "played_date": "2025-02-05",
+        "played_time": "23:45",
+        "station": "Welle Nord",
+        "title": "These are the good old days"
+    },
+    {
+        "time": "2025-02-13T21:24:16.040788Z",
+        "artist": "Simply Red",
+        "checksum": "14e034e6e34aeaba22a0475cc1ca7431b3b2eae9081a7295d57bebd7cfe69708",
+        "played_date": "2025-02-05",
+        "played_time": "23:41",
+        "station": "Welle Nord",
+        "title": "If you don't know me by now"
+    },
+    {
+        "time": "2025-02-13T21:24:15.894115Z",
+        "artist": "PUR",
+        "checksum": "5be5fadc1e4c0044e023a96b7a72484a89d38f2ce8f7aa712e49a1da69566989",
+        "played_date": "2025-02-05",
+        "played_time": "23:37",
+        "station": "Welle Nord",
+        "title": "Funkelperlenaugen"
+    },
+    {
+        "time": "2025-02-13T21:24:15.765475Z",
+        "artist": "Roy Orbison",
+        "checksum": "6b0414998cc626fed3012abc1a5e44e48fd2448551185091894ebdc581bf74b4",
+        "played_date": "2025-02-05",
+        "played_time": "23:34",
+        "station": "Welle Nord",
+        "title": "Only the lonely"
+    },
+    {
+        "time": "2025-02-13T21:24:15.615778Z",
+        "artist": "Chrissie Hynde; UB 40",
+        "checksum": "ad0a6aac1e18f40e50e65e16a911f527a4e6eb6ec92a8970c270d94462d557f6",
+        "played_date": "2025-02-05",
+        "played_time": "23:31",
+        "station": "Welle Nord",
+        "title": "I got you babe"
+    },
+    {
+        "time": "2025-02-13T21:24:15.466469Z",
+        "artist": "Nik Kershaw",
+        "checksum": "2e562676cf0a336d54e5ae0c73c65fe060b7c8424c981cde1aae0007a861554e",
+        "played_date": "2025-02-05",
+        "played_time": "23:27",
+        "station": "Welle Nord",
+        "title": "Wide boy (Single Remix)"
+    },
+    {
+        "time": "2025-02-13T21:24:15.331946Z",
+        "artist": "Smokie",
+        "checksum": "e7eb5d33df194f35f1b9b25351e457f95f8e8deab4d642bd72d072d5c56d69e5",
+        "played_date": "2025-02-05",
+        "played_time": "23:23",
+        "station": "Welle Nord",
+        "title": "Lay back in the arms of someone"
+    },
+    {
+        "time": "2025-02-13T21:24:15.201646Z",
+        "artist": "Charles + Eddie",
+        "checksum": "614e26c957504fa6568c866e5208f3b2114a770a25d5a7674f43a33c63cb2e58",
+        "played_date": "2025-02-05",
+        "played_time": "23:19",
+        "station": "Welle Nord",
+        "title": "Would I lie to you?"
+    },
+    {
+        "time": "2025-02-13T21:24:15.052397Z",
+        "artist": "The Pointer Sisters",
+        "checksum": "5eef91b7ba533b98b2ced3eadc661e2705b161e8dcaf4122538d11b05f806417",
+        "played_date": "2025-02-05",
+        "played_time": "23:15",
+        "station": "Welle Nord",
+        "title": "Slow hand"
+    },
+    {
+        "time": "2025-02-13T21:24:14.899675Z",
+        "artist": "The Zombies",
+        "checksum": "4348584c29300575d7cdcd0eff139f5bae98f29a2783a6d28a6c0931ef0211e0",
+        "played_date": "2025-02-05",
+        "played_time": "23:12",
+        "station": "Welle Nord",
+        "title": "Time of the season"
+    },
+    {
+        "time": "2025-02-13T21:24:14.751537Z",
+        "artist": "Herbert Gr\u00f6nemeyer",
+        "checksum": "b5f99e2f35c712f2cd938c975fdee3e4f41bbd4ee7967383411a0833c56ef586",
+        "played_date": "2025-02-05",
+        "played_time": "23:08",
+        "station": "Welle Nord",
+        "title": "Deine Hand"
+    },
+    {
+        "time": "2025-02-13T21:24:14.614806Z",
+        "artist": "Lisa Stansfield",
+        "checksum": "8fb530d6d9828f0e0dca2d6c3036068d9df8ed52af8114afc0ced6e5a2452552",
+        "played_date": "2025-02-05",
+        "played_time": "23:04",
+        "station": "Welle Nord",
+        "title": "All around the world"
+    },
+    {
+        "time": "2025-02-13T21:24:14.105190Z",
+        "artist": "Bryan Adams",
+        "checksum": "5e1a2ffd6f324f9007fce020d50ac78e1f0d3349538168fd9a87e7c810f65184",
+        "played_date": "2025-02-04",
+        "played_time": "23:56",
+        "station": "Welle Nord",
+        "title": "Straight from the heart"
+    },
+    {
+        "time": "2025-02-13T21:24:13.956852Z",
+        "artist": "Electric Light Orchestra",
+        "checksum": "91c520ac1b1b041faa7f8f4bc1322e9cf372c015b7d06abb94f2a29f796cc335",
+        "played_date": "2025-02-04",
+        "played_time": "23:53",
+        "station": "Welle Nord",
+        "title": "Calling America"
+    },
+    {
+        "time": "2025-02-13T21:24:13.813494Z",
+        "artist": "Steve Miller Band",
+        "checksum": "e945188129d3397df1db93e3eed707a7869895f67984e4f755eda32ec916f629",
+        "played_date": "2025-02-04",
+        "played_time": "23:50",
+        "station": "Welle Nord",
+        "title": "The joker"
+    },
+    {
+        "time": "2025-02-13T21:24:13.698522Z",
+        "artist": "Peter Maffay",
+        "checksum": "3347f80c2642d8d66a529a8551035b6df8176c4625bd9fc505ebeb96b09b8e18",
+        "played_date": "2025-02-04",
+        "played_time": "23:45",
+        "station": "Welle Nord",
+        "title": "Josie"
+    },
+    {
+        "time": "2025-02-13T21:24:13.549947Z",
+        "artist": "Jimmy Cliff",
+        "checksum": "1404acccaf89ae9b00f1c3749a5b70198efcb8fa1385d1a043664e545b44862a",
+        "played_date": "2025-02-04",
+        "played_time": "23:41",
+        "station": "Welle Nord",
+        "title": "Reggae night"
+    },
+    {
+        "time": "2025-02-13T21:24:13.407115Z",
+        "artist": "Marc Cohn",
+        "checksum": "196b7bc1c9f87223f23fe01ba155d373d31f88094815936de0980edca9e0dd1e",
+        "played_date": "2025-02-04",
+        "played_time": "23:36",
+        "station": "Welle Nord",
+        "title": "Walking in Memphis"
+    },
+    {
+        "time": "2025-02-13T21:24:13.256382Z",
+        "artist": "Fleetwood Mac",
+        "checksum": "857e976bfa7ac69bfad469e022d4610585c70769aaed8f610c9b398477166d37",
+        "played_date": "2025-02-04",
+        "played_time": "23:32",
+        "station": "Welle Nord",
+        "title": "Dreams"
+    },
+    {
+        "time": "2025-02-13T21:24:13.111758Z",
+        "artist": "Tight Fit",
+        "checksum": "8fdd02a5a0aab082987e9b2786b546e0e2f1814964788e689563c2fefb72cd93",
+        "played_date": "2025-02-04",
+        "played_time": "23:28",
+        "station": "Welle Nord",
+        "title": "The lion sleeps tonight (Wimoweh)"
+    },
+    {
+        "time": "2025-02-13T21:24:12.996052Z",
+        "artist": "Annett Louisan",
+        "checksum": "d13a3b48d8545b8de023c49baa7cb9282b1d950ef69dc574b2b7619f98d62266",
+        "played_date": "2025-02-04",
+        "played_time": "23:25",
+        "station": "Welle Nord",
+        "title": "Dr\u00fcck die 1"
+    },
+    {
+        "time": "2025-02-13T21:24:12.851066Z",
+        "artist": "The Turtles",
+        "checksum": "a34de2506b47d654e92131d85dda8638850de5b2f0e700e666d0a877a9a5e093",
+        "played_date": "2025-02-04",
+        "played_time": "23:22",
+        "station": "Welle Nord",
+        "title": "Happy together"
+    },
+    {
+        "time": "2025-02-13T21:24:12.707178Z",
+        "artist": "Bruce Springsteen",
+        "checksum": "dd1b323a92f49e827e0fdfbb443db82f1836a9bccc9f4987ad2ee8143fe08554",
+        "played_date": "2025-02-04",
+        "played_time": "23:18",
+        "station": "Welle Nord",
+        "title": "Dancing in the dark"
+    },
+    {
+        "time": "2025-02-13T21:24:12.559407Z",
+        "artist": "The Three Degrees",
+        "checksum": "187f61719015d79818487e10d80ac69d9d604a7d6f489603c3f3511add4fb11f",
+        "played_date": "2025-02-04",
+        "played_time": "23:15",
+        "station": "Welle Nord",
+        "title": "Take good care of yourself"
+    },
+    {
+        "time": "2025-02-13T21:24:12.444634Z",
+        "artist": "Kelvin Jones",
+        "checksum": "74c190083e89dddd99c2598cb5527c144d94ab2349a66859944a3aea1d74db06",
+        "played_date": "2025-02-04",
+        "played_time": "23:12",
+        "station": "Welle Nord",
+        "title": "Call you home"
+    },
+    {
+        "time": "2025-02-13T21:24:12.299668Z",
+        "artist": "Styx",
+        "checksum": "1057eaac60196bdb1f9aad5feaeb740743652e268b95867d1b5cc1e54bee8229",
+        "played_date": "2025-02-04",
+        "played_time": "23:07",
+        "station": "Welle Nord",
+        "title": "Babe"
+    },
+    {
+        "time": "2025-02-13T21:24:12.152699Z",
+        "artist": "Phil Carmen",
+        "checksum": "d6de6f33712998fbdca511b54b8e1c9b767b8dc32fbc7f9748c7f7640a671eef",
+        "played_date": "2025-02-04",
+        "played_time": "23:03",
+        "station": "Welle Nord",
+        "title": "On my way in L.A."
+    },
+    {
+        "time": "2025-02-13T21:24:11.867224Z",
+        "artist": "Charlie Rich",
+        "checksum": "97a1bfaa5a88c5088c91bf8e6bc5cae51f5a3103edfc4c9cccd6c681df066315",
+        "played_date": "2025-02-06",
+        "played_time": "23:57",
+        "station": "Welle Nord",
+        "title": "The most beautiful girl"
+    },
+    {
+        "time": "2025-02-13T21:24:11.753685Z",
+        "artist": "Barbra Streisand",
+        "checksum": "48f06e09a79fe885f69569c5d69e96ba8d72a23dcf62b79185af29753dc08316",
+        "played_date": "2025-02-06",
+        "played_time": "23:53",
+        "station": "Welle Nord",
+        "title": "Woman in love"
+    },
+    {
+        "time": "2025-02-13T21:24:11.610875Z",
+        "artist": "John Fred + His Playboy Band",
+        "checksum": "6c10a3153ddeec0f1ad68bcc13439a8166488a88fce0edbfada42827c9f71be8",
+        "played_date": "2025-02-06",
+        "played_time": "23:51",
+        "station": "Welle Nord",
+        "title": "Judy in disguise (with glasses)"
+    },
+    {
+        "time": "2025-02-13T21:24:11.470576Z",
+        "artist": "Stefan Waggershausen; Viktor Lazlo",
+        "checksum": "b7fe868ca9d0ae025428196a80747a8ce1bbdeb305efd40aa715c6151576a27b",
+        "played_date": "2025-02-06",
+        "played_time": "23:45",
+        "station": "Welle Nord",
+        "title": "Jesse (douce et innocente)"
+    },
+    {
+        "time": "2025-02-13T21:24:11.325097Z",
+        "artist": "Bob Seger + The Silver Bullet Band",
+        "checksum": "3895995581c3b6e3e841183e48e3d660a5c46d839aee67ac465a69d85fed550e",
+        "played_date": "2025-02-06",
+        "played_time": "23:42",
+        "station": "Welle Nord",
+        "title": "Against the wind"
+    },
+    {
+        "time": "2025-02-13T21:24:11.177537Z",
+        "artist": "Queen",
+        "checksum": "9e608a45c6a4b4b2cbb9274a223830392722a5a7c1a0de97171b27b1d6889982",
+        "played_date": "2025-02-06",
+        "played_time": "23:39",
+        "station": "Welle Nord",
+        "title": "Killer queen"
+    },
+    {
+        "time": "2025-02-13T21:24:11.011655Z",
+        "artist": "James Blunt",
+        "checksum": "1875768a58e810bb7d8573d0343fa894a2746f43a6a29d1d62213603320c5654",
+        "played_date": "2025-02-06",
+        "played_time": "23:35",
+        "station": "Welle Nord",
+        "title": "Bonfire heart"
+    },
+    {
+        "time": "2025-02-13T21:24:10.869581Z",
+        "artist": "Tina Turner",
+        "checksum": "c5d01e6edb7e80a2f517e58f8b22479667655bfd21e2696e0f21be4ecbbb1a27",
+        "played_date": "2025-02-06",
+        "played_time": "23:30",
+        "station": "Welle Nord",
+        "title": "We don't need another hero (Thunderdome)"
+    },
+    {
+        "time": "2025-02-13T21:24:10.724667Z",
+        "artist": "Phil Collins",
+        "checksum": "4dc5e39d10a2c187d35683aec1b63b0d4bb4efd69e3ea8e3f2ba6f9f5129d337",
+        "played_date": "2025-02-06",
+        "played_time": "23:26",
+        "station": "Welle Nord",
+        "title": "A groovy kind of love"
+    },
+    {
+        "time": "2025-02-13T21:24:10.603508Z",
+        "artist": "The Love Affair",
+        "checksum": "d26ded1fa1187fa6d602dc80cd2656c1fba32188814a7ff7dc8700c8cdd3ef17",
+        "played_date": "2025-02-06",
+        "played_time": "23:23",
+        "station": "Welle Nord",
+        "title": "Everlasting love"
+    },
+    {
+        "time": "2025-02-13T21:24:10.471809Z",
+        "artist": "John Farnham",
+        "checksum": "6af1f8e6f52da9b28cbdef3ab0d155b270cc3d25d77a0c1cf9f987b5096103e6",
+        "played_date": "2025-02-06",
+        "played_time": "23:19",
+        "station": "Welle Nord",
+        "title": "You're the voice"
+    },
+    {
+        "time": "2025-02-13T21:24:10.315999Z",
+        "artist": "Frida Gold",
+        "checksum": "31fb170f60668d325ba90f76418cda82a0d80f274a587dfff783fc95d3274386",
+        "played_date": "2025-02-06",
+        "played_time": "23:16",
+        "station": "Welle Nord",
+        "title": "Wovon sollen wir tr\u00e4umen"
+    },
+    {
+        "time": "2025-02-13T21:24:10.171082Z",
+        "artist": "Rod Stewart",
+        "checksum": "c4e17bc6b0779dea1befa5960e9d7b40aa69950a366f2ba21046127b0819576f",
+        "played_date": "2025-02-06",
+        "played_time": "23:12",
+        "station": "Welle Nord",
+        "title": "The Motown Song"
+    },
+    {
+        "time": "2025-02-13T21:24:10.038818Z",
+        "artist": "Tracy Chapman",
+        "checksum": "cfe0aea2dffed3e8ab7d712a7ed0053d177ddfe5c049b9930773f9be2a377158",
+        "played_date": "2025-02-06",
+        "played_time": "23:07",
+        "station": "Welle Nord",
+        "title": "Fast car"
+    },
+    {
+        "time": "2025-02-13T21:24:09.902835Z",
+        "artist": "Status Quo",
+        "checksum": "06f51d8e6653d5e02a63e539e0f19afb3491b848c2d60d0814a482dd0e80314b",
+        "played_date": "2025-02-06",
+        "played_time": "23:03",
+        "station": "Welle Nord",
+        "title": "Whatever you want"
+    },
+    {
+        "time": "2025-02-13T21:24:09.525921Z",
+        "artist": "Fleetwood Mac",
+        "checksum": "6ef806cfce9f3833af03a8e9fdb89a09b1d8497b78274c2752e3fcf5bfd64986",
+        "played_date": "2025-02-12",
+        "played_time": "23:55",
+        "station": "Welle Nord",
+        "title": "Gypsy"
+    },
+    {
+        "time": "2025-02-13T21:24:09.373529Z",
+        "artist": "Elvis Presley",
+        "checksum": "179318b09f889cfb50efaeee63b40e9b033d2510a13507f3f306ff7efd7e84bf",
+        "played_date": "2025-02-12",
+        "played_time": "23:51",
+        "station": "Welle Nord",
+        "title": "Suspicious minds"
+    },
+    {
+        "time": "2025-02-13T21:24:09.224389Z",
+        "artist": "Kool + The Gang",
+        "checksum": "3027923be0ccc1564565fe568809d6676680a1708b725bd95bee34355decd605",
+        "played_date": "2025-02-12",
+        "played_time": "23:48",
+        "station": "Welle Nord",
+        "title": "Joanna"
+    },
+    {
+        "time": "2025-02-13T21:24:09.104830Z",
+        "artist": "Pussycat",
+        "checksum": "4bc4665626a8f7b759246aa56a1965878dde481f8122dfcfdcf561451c95debe",
+        "played_date": "2025-02-12",
+        "played_time": "23:44",
+        "station": "Welle Nord",
+        "title": "Smile"
+    },
+    {
+        "time": "2025-02-13T21:24:08.957466Z",
+        "artist": "Udo Lindenberg",
+        "checksum": "a1d09827fda2fee8019cb5fa0954e9fc5c0f5d9a463b05cd2fc06504cab1640e",
+        "played_date": "2025-02-12",
+        "played_time": "23:41",
+        "station": "Welle Nord",
+        "title": "Reeperbahn"
+    },
+    {
+        "time": "2025-02-13T21:24:08.796274Z",
+        "artist": "Alison Moyet",
+        "checksum": "3613d3eff1628a88f165b255c80302f2f1952e1d60eeed80d1362bfb2d0ffa05",
+        "played_date": "2025-02-12",
+        "played_time": "23:37",
+        "station": "Welle Nord",
+        "title": "For you only"
+    },
+    {
+        "time": "2025-02-13T21:24:08.646462Z",
+        "artist": "Boyzone",
+        "checksum": "94e07e89ebe62c2e815e7f9b200e523dbc1501152a10ebc64b263fb168134baf",
+        "played_date": "2025-02-12",
+        "played_time": "23:33",
+        "station": "Welle Nord",
+        "title": "No matter what"
+    },
+    {
+        "time": "2025-02-13T21:24:08.514550Z",
+        "artist": "Maxine Nightingale",
+        "checksum": "a6d13072bb77382fc661326e01e3300b2093348e3b75a05d7c6c7088c3f591b4",
+        "played_date": "2025-02-12",
+        "played_time": "23:30",
+        "station": "Welle Nord",
+        "title": "Right back where we started from"
+    },
+    {
+        "time": "2025-02-13T21:24:08.347880Z",
+        "artist": "John Waite",
+        "checksum": "acb9e67883bfbcf9bebc3c62f2ba23d31fc4934a26a31d0ebbc94b0c34732b5e",
+        "played_date": "2025-02-12",
+        "played_time": "23:25",
+        "station": "Welle Nord",
+        "title": "Missing you"
+    },
+    {
+        "time": "2025-02-13T21:24:08.198533Z",
+        "artist": "Annett Louisan",
+        "checksum": "3e50daaecef6d01df59074fc78a00447a9b1a1a0b444cb53f403a124749515be",
+        "played_date": "2025-02-12",
+        "played_time": "23:23",
+        "station": "Welle Nord",
+        "title": "Das Gef\u00fchl"
+    },
+    {
+        "time": "2025-02-13T21:24:08.048199Z",
+        "artist": "Beach Boys",
+        "checksum": "607df3a64a8a2296d7a22e4f74982d6149baf073d5c70b27b9415c24558b885b",
+        "played_date": "2025-02-12",
+        "played_time": "23:20",
+        "station": "Welle Nord",
+        "title": "Wouldn't it be nice"
+    },
+    {
+        "time": "2025-02-13T21:24:07.923534Z",
+        "artist": "Donna Summer",
+        "checksum": "897d7aa977369e83497e50e82e5ab981df785a2deef42bf0a52e8e4f1bbd2a59",
+        "played_date": "2025-02-12",
+        "played_time": "23:16",
+        "station": "Welle Nord",
+        "title": "On the radio"
+    },
+    {
+        "time": "2025-02-13T21:24:07.785668Z",
+        "artist": "Bernie Paul",
+        "checksum": "57f83fa3bd76eeefa1b19f03cdcc26fc920f3a2813315aa2aee7e0a626136c47",
+        "played_date": "2025-02-12",
+        "played_time": "23:13",
+        "station": "Welle Nord",
+        "title": "Lucky"
+    },
+    {
+        "time": "2025-02-13T21:24:07.635835Z",
+        "artist": "The Flames",
+        "checksum": "eb112b9f42cef8f55b065d7c975b58a6284d5de02e45b79aaa42904754f4362a",
+        "played_date": "2025-02-12",
+        "played_time": "23:09",
+        "station": "Welle Nord",
+        "title": "Everytime"
+    },
+    {
+        "time": "2025-02-13T21:24:07.474702Z",
+        "artist": "Queen",
+        "checksum": "824a9a4d359c05aac4121f9cfea9b006ffc1a8815518d7061ff5bee7a1071a39",
+        "played_date": "2025-02-12",
+        "played_time": "23:06",
+        "station": "Welle Nord",
+        "title": "Killer queen"
+    },
+    {
+        "time": "2025-02-13T21:24:07.323891Z",
+        "artist": "Phil Collins",
+        "checksum": "517f8e7532e8513b9796b69175a04fdbf5623042eebe299e27eb8aa8168831c8",
+        "played_date": "2025-02-12",
+        "played_time": "23:04",
+        "station": "Welle Nord",
+        "title": "You can't hurry love"
+    },
+    {
+        "time": "2025-02-13T21:24:07.071488Z",
+        "artist": "Kool & The Gang",
+        "checksum": "1247b5979ea0ea1224336669479d755d8067aea5ce177448c09689075f439d4e",
+        "played_date": "2025-02-07",
+        "played_time": "22:58",
+        "station": "Welle Nord",
+        "title": "Celebration"
+    },
+    {
+        "time": "2025-02-13T21:24:06.925116Z",
+        "artist": "Simply Red",
+        "checksum": "068595a19a8113e77420fd21480ebe6b83b4a3b0f9d26301e3005cc67ff20fae",
+        "played_date": "2025-02-07",
+        "played_time": "22:54",
+        "station": "Welle Nord",
+        "title": "Something got me started"
+    },
+    {
+        "time": "2025-02-13T21:24:06.782512Z",
+        "artist": "Carl Douglas",
+        "checksum": "10766f516392c2868591c4dc1050773973f0c583ad8caab285b2d409563cc068",
+        "played_date": "2025-02-07",
+        "played_time": "22:51",
+        "station": "Welle Nord",
+        "title": "Kung Fu fighting"
+    },
+    {
+        "time": "2025-02-13T21:24:06.633797Z",
+        "artist": "Madonna",
+        "checksum": "ed10290cfb079dbf02bacf1f50ebf9ac2b3a1924231fa7af629551cc05bf0b53",
+        "played_date": "2025-02-07",
+        "played_time": "22:47",
+        "station": "Welle Nord",
+        "title": "Papa don't preach"
+    },
+    {
+        "time": "2025-02-13T21:24:06.516435Z",
+        "artist": "Pink & Nate Ruess",
+        "checksum": "b262441774dcfcbd27e807108add4c0839a3fe554e4cf3cad668636733e8abdd",
+        "played_date": "2025-02-07",
+        "played_time": "22:43",
+        "station": "Welle Nord",
+        "title": "Just give me a reason"
+    },
+    {
+        "time": "2025-02-13T21:24:06.367319Z",
+        "artist": "Queen",
+        "checksum": "dd1f8cc079c922b76ae4eeea3ef4944977e5422752930a0d9ecdb4316821f598",
+        "played_date": "2025-02-07",
+        "played_time": "22:37",
+        "station": "Welle Nord",
+        "title": "Radio Ga Ga"
+    },
+    {
+        "time": "2025-02-13T21:24:06.219298Z",
+        "artist": "Captain & Tennille",
+        "checksum": "543f4bbaaf0a514a2e546fa26bff95d71ce692af7cd8281148931d36cfdc1648",
+        "played_date": "2025-02-07",
+        "played_time": "22:33",
+        "station": "Welle Nord",
+        "title": "Do that to me one more time"
+    },
+    {
+        "time": "2025-02-13T21:24:06.073207Z",
+        "artist": "Ronan Keating",
+        "checksum": "47ee366455a025e6ef90cda9b8ad09f6f2d2c6c944e3c2e4d90c45688b881a10",
+        "played_date": "2025-02-07",
+        "played_time": "22:29",
+        "station": "Welle Nord",
+        "title": "Life is a rollercoaster"
+    },
+    {
+        "time": "2025-02-13T21:24:05.941386Z",
+        "artist": "DeBarge",
+        "checksum": "d9c05672ae35035556ef227e546596158313e641a84d47dfd48527da2f23c5c3",
+        "played_date": "2025-02-07",
+        "played_time": "22:26",
+        "station": "Welle Nord",
+        "title": "Rhythm of the night"
+    },
+    {
+        "time": "2025-02-13T21:24:05.647431Z",
+        "artist": "Kamrad",
+        "checksum": "92da019184e72ba5748083b3d5190040ccc3ca3b6c913bede91ad9bccdeddcf2",
+        "played_date": "2025-02-07",
+        "played_time": "22:23",
+        "station": "Welle Nord",
+        "title": "I believe"
+    },
+    {
+        "time": "2025-02-13T21:24:05.497532Z",
+        "artist": "Rod Stewart",
+        "checksum": "1fb27aa8395927c618adea76aca1b58794c4a192b66de23fd419c21d783e5174",
+        "played_date": "2025-02-07",
+        "played_time": "22:19",
+        "station": "Welle Nord",
+        "title": "Sailing"
+    },
+    {
+        "time": "2025-02-13T21:24:05.355322Z",
+        "artist": "Pet Shop Boys",
+        "checksum": "999c7b856d2e2598b7c558771a7daccf1f50787b8443be37e327686766520a69",
+        "played_date": "2025-02-07",
+        "played_time": "22:15",
+        "station": "Welle Nord",
+        "title": "Always on my mind"
+    },
+    {
+        "time": "2025-02-13T21:24:05.234534Z",
+        "artist": "Ich + Ich",
+        "checksum": "4311f5991b5e1957dad7732e9e84722154f7956e52eea4a890bd699850a77d38",
+        "played_date": "2025-02-07",
+        "played_time": "22:11",
+        "station": "Welle Nord",
+        "title": "Vom selben Stern"
+    },
+    {
+        "time": "2025-02-13T21:24:05.088462Z",
+        "artist": "Roxy Music",
+        "checksum": "59afe76588c1034e6cc9e4c1b223807b4aaf1ca5ea6402baffc0562d17782830",
+        "played_date": "2025-02-07",
+        "played_time": "22:07",
+        "station": "Welle Nord",
+        "title": "Oh yeah (There's a band playing on the radio)"
+    },
+    {
+        "time": "2025-02-13T21:24:04.882371Z",
+        "artist": "Gianna Nannini",
+        "checksum": "c7b34323ab0a84e69e412b7aa78dd03fc25852ebaace58779917309c18a6fb6f",
+        "played_date": "2025-02-07",
+        "played_time": "22:03",
+        "station": "Welle Nord",
+        "title": "Bello e impossibile"
+    },
+    {
+        "time": "2025-02-13T21:24:02.280455Z",
+        "artist": "Revolverheld",
+        "checksum": "be57cca3214ab0d642efcc8ca4d387dc4d8047af0ad2d9058fc950b78acc4e24",
+        "played_date": "2025-02-10",
+        "played_time": "22:58",
+        "station": "Welle Nord",
+        "title": "Ich lass f\u00fcr dich das Licht an"
+    },
+    {
+        "time": "2025-02-13T21:24:02.134992Z",
+        "artist": "Bay City Rollers",
+        "checksum": "5e5171b5a00d29e6ba38884f74309273897c05e28c8300ed19e17876851084ab",
+        "played_date": "2025-02-10",
+        "played_time": "22:56",
+        "station": "Welle Nord",
+        "title": "Bye bye baby"
+    },
+    {
+        "time": "2025-02-13T21:24:01.993733Z",
+        "artist": "Lisa Stansfield",
+        "checksum": "767fa45ec499002cde0706b5e148e263f480ffd5bffc2e8629d8b5f8c274b2f2",
+        "played_date": "2025-02-10",
+        "played_time": "22:51",
+        "station": "Welle Nord",
+        "title": "All around the world"
+    },
+    {
+        "time": "2025-02-13T21:24:01.712688Z",
+        "artist": "Michael Schulte",
+        "checksum": "7e1414dd43768cf6fd94345c3f54fad385224c1a1bc9a9789e14bc057677dfc6",
+        "played_date": "2025-02-10",
+        "played_time": "22:49",
+        "station": "Welle Nord",
+        "title": "You let me walk alone"
+    },
+    {
+        "time": "2025-02-13T21:24:01.318984Z",
+        "artist": "Sniff'n'The Tears",
+        "checksum": "2542835e8921a931973ceb74adc8505a91a5fee06a4a5d1c94d2cf75014d267e",
+        "played_date": "2025-02-10",
+        "played_time": "22:45",
+        "station": "Welle Nord",
+        "title": "Driver's seat"
+    },
+    {
+        "time": "2025-02-13T21:24:01.158380Z",
+        "artist": "Elton John",
+        "checksum": "8828311643643c741ae7515fdfde70b95c026f2f2f88e417de0931a06f4fa14d",
+        "played_date": "2025-02-10",
+        "played_time": "22:40",
+        "station": "Welle Nord",
+        "title": "I guess that's why they call it the Blues"
+    },
+    {
+        "time": "2025-02-13T21:24:01.016863Z",
+        "artist": "Jon Secada",
+        "checksum": "5eaef37d122f9ddbcf106920e59e12aacf55e1d1c6fb1ee00993de0ca0384ad0",
+        "played_date": "2025-02-10",
+        "played_time": "22:36",
+        "station": "Welle Nord",
+        "title": "Just another day"
+    },
+    {
+        "time": "2025-02-13T21:24:00.900310Z",
+        "artist": "Sister Sledge",
+        "checksum": "8b09612758f127fd19f50d3b59ef68f2c8888fcf38fd684ead68fc6329b78c14",
+        "played_date": "2025-02-10",
+        "played_time": "22:33",
+        "station": "Welle Nord",
+        "title": "We are family"
+    },
+    {
+        "time": "2025-02-13T21:24:00.751451Z",
+        "artist": "Phil Collins",
+        "checksum": "3a70c9fdfd11241f07c7641b555f0d18961a001ae54bc103900ea931a95ca51a",
+        "played_date": "2025-02-10",
+        "played_time": "22:28",
+        "station": "Welle Nord",
+        "title": "You'll be in my heart"
+    },
+    {
+        "time": "2025-02-13T21:24:00.609724Z",
+        "artist": "Chris Rea",
+        "checksum": "aec47377ceb76fddd6e427023d3d942d7ad2898689730b727b0c77f7e62d5e2e",
+        "played_date": "2025-02-10",
+        "played_time": "22:24",
+        "station": "Welle Nord",
+        "title": "Josephine"
+    },
+    {
+        "time": "2025-02-13T21:24:00.469276Z",
+        "artist": "Beach Boys",
+        "checksum": "139ee7de0690ef374368fa1214950df5a0012112549cc00c4d26a5b07c4f502a",
+        "played_date": "2025-02-10",
+        "played_time": "22:21",
+        "station": "Welle Nord",
+        "title": "Help me, Rhonda"
+    },
+    {
+        "time": "2025-02-13T21:24:00.353785Z",
+        "artist": "Rod Stewart",
+        "checksum": "490125447e46c62fd6908542cd19d3312cc9e1b21b8431a849f2fe5f86952c3c",
+        "played_date": "2025-02-10",
+        "played_time": "22:17",
+        "station": "Welle Nord",
+        "title": "Love touch (Theme from \"Legal Eagles\")"
+    },
+    {
+        "time": "2025-02-13T21:24:00.200589Z",
+        "artist": "Robert Palmer",
+        "checksum": "ee7690710a1a981bce99f12da12f1cb799a041712cab4e896c5151d0c3d8d530",
+        "played_date": "2025-02-10",
+        "played_time": "22:14",
+        "station": "Welle Nord",
+        "title": "Johnny and Mary"
+    },
+    {
+        "time": "2025-02-13T21:24:00.051810Z",
+        "artist": "Rihanna & Mikky Ekko",
+        "checksum": "bd40dc90bd0ddcadd91f15abd0e28ef000a27d69aab5303ab082d018d664edaf",
+        "played_date": "2025-02-10",
+        "played_time": "22:10",
+        "station": "Welle Nord",
+        "title": "Stay"
+    },
+    {
+        "time": "2025-02-13T21:23:59.906300Z",
+        "artist": "Bee Gees",
+        "checksum": "af7442609e392e5cd21482b641b54cc048063db471d67669a3295cbc8843a021",
+        "played_date": "2025-02-10",
+        "played_time": "22:06",
+        "station": "Welle Nord",
+        "title": "Night fever"
+    },
+    {
+        "time": "2025-02-13T21:23:59.777997Z",
+        "artist": "Joe Cocker",
+        "checksum": "b47e25ae1a29e6b240080e5888bac07918540532d76eb273d680fa8ea7d7125f",
+        "played_date": "2025-02-10",
+        "played_time": "22:03",
+        "station": "Welle Nord",
+        "title": "Unchain my heart"
+    },
+    {
+        "time": "2025-02-13T21:23:59.461139Z",
+        "artist": "Queen",
+        "checksum": "019601dd4ca74f706fae862e78b07c54afeb9018a26249335bfa8a03ad55780e",
+        "played_date": "2025-02-08",
+        "played_time": "22:56",
+        "station": "Welle Nord",
+        "title": "We are the champions"
+    },
+    {
+        "time": "2025-02-13T21:23:59.316525Z",
+        "artist": "Joe Cocker & Jennifer Warnes",
+        "checksum": "7cba425e490aa0920934f2a8a4f7543327cc4b68ee45bd7eac256718430eb8e5",
+        "played_date": "2025-02-08",
+        "played_time": "22:53",
+        "station": "Welle Nord",
+        "title": "Up where we belong"
+    },
+    {
+        "time": "2025-02-13T21:23:59.161395Z",
+        "artist": "Alvaro Soler",
+        "checksum": "ebbccbe7e0e023d015693ebce35f67a60efabdf33dbb6d1b7b0c7ca4825f377f",
+        "played_date": "2025-02-08",
+        "played_time": "22:49",
+        "station": "Welle Nord",
+        "title": "La cintura"
+    },
+    {
+        "time": "2025-02-13T21:23:59.044466Z",
+        "artist": "Cliff Richard",
+        "checksum": "48eceaa1739db7325190267d4af49c7cba3e7c46850e065bb63408e30d684415",
+        "played_date": "2025-02-08",
+        "played_time": "22:45",
+        "station": "Welle Nord",
+        "title": "We don't talk anymore"
+    },
+    {
+        "time": "2025-02-13T21:23:58.889035Z",
+        "artist": "A-ha",
+        "checksum": "933d1a51cae5c79bdd96db884e0870b03bdff27e017dd48f6f9e3f497a7a1132",
+        "played_date": "2025-02-08",
+        "played_time": "22:42",
+        "station": "Welle Nord",
+        "title": "Take on me"
+    },
+    {
+        "time": "2025-02-13T21:23:58.743008Z",
+        "artist": "Roxette",
+        "checksum": "d7589fc8349a3a7e9caa59775bd46851b54ba7ba7aa6589cb7cdc5eac501ee28",
+        "played_date": "2025-02-08",
+        "played_time": "22:37",
+        "station": "Welle Nord",
+        "title": "Spending my time"
+    },
+    {
+        "time": "2025-02-13T21:23:58.619658Z",
+        "artist": "Supertramp",
+        "checksum": "f5822d15f2c8e3c6d04526e57eec4d8759662f7e21dcc80f0773c11d07bd843c",
+        "played_date": "2025-02-08",
+        "played_time": "22:33",
+        "station": "Welle Nord",
+        "title": "Take the long way home"
+    },
+    {
+        "time": "2025-02-13T21:23:58.489538Z",
+        "artist": "Jimmy Cliff",
+        "checksum": "c4f182b399a2e3782aba95563e1e29e2c421440567d5d9599281b02644ee8ab9",
+        "played_date": "2025-02-08",
+        "played_time": "22:30",
+        "station": "Welle Nord",
+        "title": "I can see clearly now"
+    },
+    {
+        "time": "2025-02-13T21:23:58.336756Z",
+        "artist": "Tina Turner",
+        "checksum": "96370a81f898b5ed751d23e90d062d7e511aef51084a4c36468e856952490a01",
+        "played_date": "2025-02-08",
+        "played_time": "22:26",
+        "station": "Welle Nord",
+        "title": "What's love got to do with it"
+    },
+    {
+        "time": "2025-02-13T21:23:58.194238Z",
+        "artist": "Billy Swan",
+        "checksum": "a68370efd94a791bd2e1322224fb9644aa5e238412c5733774e3192e8053d13d",
+        "played_date": "2025-02-08",
+        "played_time": "22:23",
+        "station": "Welle Nord",
+        "title": "I can help"
+    },
+    {
+        "time": "2025-02-13T21:23:58.076025Z",
+        "artist": "Johnny Hates Jazz",
+        "checksum": "0da5a7cc3c370ce911bc5af11338c9a36129cbd411795260ea882612c63eb71d",
+        "played_date": "2025-02-08",
+        "played_time": "22:19",
+        "station": "Welle Nord",
+        "title": "Turn back the clock"
+    },
+    {
+        "time": "2025-02-13T21:23:57.933917Z",
+        "artist": "Earth & Fire",
+        "checksum": "b6ced43095fecf2af426e615db925518f8d075310161f4fdd1e6a0549287f917",
+        "played_date": "2025-02-08",
+        "played_time": "22:16",
+        "station": "Welle Nord",
+        "title": "Weekend"
+    },
+    {
+        "time": "2025-02-13T21:23:57.791140Z",
+        "artist": "Max Giesinger",
+        "checksum": "7215a85ac76e7061fe4a02c0ab7d4c1b5682fa7c033c453177e0fd2e4fc1126c",
+        "played_date": "2025-02-08",
+        "played_time": "22:12",
+        "station": "Welle Nord",
+        "title": "80 Millionen"
+    },
+    {
+        "time": "2025-02-13T21:23:57.646982Z",
+        "artist": "Roberta Flack",
+        "checksum": "ec6998d8d7731177b332bf497473f5d8dfa9969d669a38cbd23934efe73e5185",
+        "played_date": "2025-02-08",
+        "played_time": "22:07",
+        "station": "Welle Nord",
+        "title": "Killing me softly with his song"
+    },
+    {
+        "time": "2025-02-13T21:23:57.524541Z",
+        "artist": "Sting",
+        "checksum": "97616cb758ba9270a7c8aa2131426861f9e4592212c353b87e49c945e64e0111",
+        "played_date": "2025-02-08",
+        "played_time": "22:03",
+        "station": "Welle Nord",
+        "title": "Englishman in New York"
+    },
+    {
+        "time": "2025-02-13T21:23:57.058203Z",
+        "artist": "Diana Ross",
+        "checksum": "53cbdfb1a4a17085314761dbeca4c395084b921777b34014ea5cb6e8c04a545b",
+        "played_date": "2025-02-09",
+        "played_time": "22:59",
+        "station": "Welle Nord",
+        "title": "Upside down"
+    },
+    {
+        "time": "2025-02-13T21:23:56.911198Z",
+        "artist": "UB 40",
+        "checksum": "61f96bee75e19d5e4df219106c3ef80f638c97e758211a156fd9771ce60bceb6",
+        "played_date": "2025-02-09",
+        "played_time": "22:56",
+        "station": "Welle Nord",
+        "title": "Red red wine"
+    },
+    {
+        "time": "2025-02-13T21:23:56.766060Z",
+        "artist": "Katie Melua",
+        "checksum": "90569000bb64a6c83e48969a5a5a06f3e4041c625bfb11253731e42f971ee84a",
+        "played_date": "2025-02-09",
+        "played_time": "22:53",
+        "station": "Welle Nord",
+        "title": "Nine million bicycles"
+    },
+    {
+        "time": "2025-02-13T21:23:56.650670Z",
+        "artist": "Creedence Clearwater Revival",
+        "checksum": "6c435f52de85058792b9730e54f7d6e0aa6c1a49df1192f1bdabd495c0de8e31",
+        "played_date": "2025-02-09",
+        "played_time": "22:51",
+        "station": "Welle Nord",
+        "title": "Lookin' out my back door"
+    },
+    {
+        "time": "2025-02-13T21:23:56.504764Z",
+        "artist": "Huey Lewis & The News",
+        "checksum": "b91e5ed00e647374adec10ca27fbfd2befb3ae9839401671dad6bd569e14e996",
+        "played_date": "2025-02-09",
+        "played_time": "22:46",
+        "station": "Welle Nord",
+        "title": "Stuck with you"
+    },
+    {
+        "time": "2025-02-13T21:23:56.247514Z",
+        "artist": "Amy MacDonald",
+        "checksum": "cec86e139ba33937b0e06e2c02aa7980bc2e62612096da27c679f518e7a825b0",
+        "played_date": "2025-02-09",
+        "played_time": "22:43",
+        "station": "Welle Nord",
+        "title": "Slow It Down"
+    },
+    {
+        "time": "2025-02-13T21:23:56.081701Z",
+        "artist": "Womack & Womack",
+        "checksum": "2cce805d5e9d9383c955f68f3403487b07362fc65d857eaeb58179d66d5cde1b",
+        "played_date": "2025-02-09",
+        "played_time": "22:39",
+        "station": "Welle Nord",
+        "title": "Teardrops"
+    },
+    {
+        "time": "2025-02-13T21:23:55.963680Z",
+        "artist": "Eagles",
+        "checksum": "39b62b73af9515baf6b33ac82071453cce64c2ffc080b4e20524337ec1509685",
+        "played_date": "2025-02-09",
+        "played_time": "22:34",
+        "station": "Welle Nord",
+        "title": "New kid in town"
+    },
+    {
+        "time": "2025-02-13T21:23:55.814756Z",
+        "artist": "Westernhagen",
+        "checksum": "791d0ec2c73a91af9582f1a7b99fcf636827fe0d3a244b197f7b856b9e4230b4",
+        "played_date": "2025-02-09",
+        "played_time": "22:31",
+        "station": "Welle Nord",
+        "title": "Willenlos"
+    },
+    {
+        "time": "2025-02-13T21:23:55.671099Z",
+        "artist": "Madonna",
+        "checksum": "c44a283d522b98452c4c63e1e7ad0a2ab45679385e8d918895c0934a183da267",
+        "played_date": "2025-02-09",
+        "played_time": "22:26",
+        "station": "Welle Nord",
+        "title": "Into the groove"
+    },
+    {
+        "time": "2025-02-13T21:23:55.527778Z",
+        "artist": "Michael Patrick Kelly",
+        "checksum": "083c38237fb931b4c57da0c4a44bc6f5fe7c3d9dde93031f69f8c0f8b48e5c77",
+        "played_date": "2025-02-09",
+        "played_time": "22:23",
+        "station": "Welle Nord",
+        "title": "Blurry eyes"
+    },
+    {
+        "time": "2025-02-13T21:23:55.415144Z",
+        "artist": "Abba",
+        "checksum": "8628d77906a7c0ce8a7c9a1b54d10872602088184c54ad5c2004700518cae844",
+        "played_date": "2025-02-09",
+        "played_time": "22:18",
+        "station": "Welle Nord",
+        "title": "Voulez-vous"
+    },
+    {
+        "time": "2025-02-13T21:23:55.266806Z",
+        "artist": "David Bowie",
+        "checksum": "1591d6bf6e2924f5dcb1bf740c553e8f39239957323f85d5baf25c692130e1b2",
+        "played_date": "2025-02-09",
+        "played_time": "22:14",
+        "station": "Welle Nord",
+        "title": "China girl"
+    },
+    {
+        "time": "2025-02-13T21:23:55.123384Z",
+        "artist": "Bruno Mars",
+        "checksum": "a583a8e5cfa0b719f32974fca18e6485c3aac7eb4ab345bdcba6a5714417689f",
+        "played_date": "2025-02-09",
+        "played_time": "22:10",
+        "station": "Welle Nord",
+        "title": "Just the way you are"
+    },
+    {
+        "time": "2025-02-13T21:23:54.978927Z",
+        "artist": "Garland Jeffreys",
+        "checksum": "854161aa98ee9816ba47b40f466fc7fab8cb754083e26d45322b73cb632b7b29",
+        "played_date": "2025-02-09",
+        "played_time": "22:07",
+        "station": "Welle Nord",
+        "title": "Matador"
+    },
+    {
+        "time": "2025-02-13T21:23:54.857483Z",
+        "artist": "Culture Club",
+        "checksum": "f06b51440393221a0751a549440073dead53c26a55d36947a9f3a0bdf0650655",
+        "played_date": "2025-02-09",
+        "played_time": "22:03",
+        "station": "Welle Nord",
+        "title": "Karma chameleon"
+    },
+    {
+        "time": "2025-02-13T21:23:54.539903Z",
+        "artist": "Meat Loaf",
+        "checksum": "670c81e4ae2f7defeff6bcd8952dd2c9257a2d1e7069466b536731894dc713c8",
+        "played_date": "2025-02-05",
+        "played_time": "22:59",
+        "station": "Welle Nord",
+        "title": "You took the words right out of my mouth (Hot summer night)"
+    },
+    {
+        "time": "2025-02-13T21:23:54.394662Z",
+        "artist": "The Black Sorrows",
+        "checksum": "816e15cf880c0e9dd7afc425bb8b5393490afddd33b7bd7a4f53713e187362a7",
+        "played_date": "2025-02-05",
+        "played_time": "22:56",
+        "station": "Welle Nord",
+        "title": "Stir it up"
+    },
+    {
+        "time": "2025-02-13T21:23:54.248444Z",
+        "artist": "Loona",
+        "checksum": "29609df82295c2eec8f6a5d2912baba5d176cea16655e4e34dba2edea85805d1",
+        "played_date": "2025-02-05",
+        "played_time": "22:52",
+        "station": "Welle Nord",
+        "title": "Hijo de la luna"
+    },
+    {
+        "time": "2025-02-13T21:23:54.132470Z",
+        "artist": "Creedence Clearwater Revival",
+        "checksum": "9c1814fd7c38b8f0e582a62ebc3ec7984918c3d13cf221618e10609f0a8a34f1",
+        "played_date": "2025-02-05",
+        "played_time": "22:49",
+        "station": "Welle Nord",
+        "title": "Proud Mary"
+    },
+    {
+        "time": "2025-02-13T21:23:53.979982Z",
+        "artist": "Thompson Twins",
+        "checksum": "138822b3f8686d6fc789836323665d31eb87674c782eee5ae258c51c5f9001aa",
+        "played_date": "2025-02-05",
+        "played_time": "22:44",
+        "station": "Welle Nord",
+        "title": "Hold me now"
+    },
+    {
+        "time": "2025-02-13T21:23:53.820151Z",
+        "artist": "Daft Punk",
+        "checksum": "4063335f08f4f1b67fe12125adc2190400f666b75a19eba73db71c9dcdeb5bf8",
+        "played_date": "2025-02-05",
+        "played_time": "22:40",
+        "station": "Welle Nord",
+        "title": "Get lucky"
+    },
+    {
+        "time": "2025-02-13T21:23:53.672007Z",
+        "artist": "Candy Dulfer & David A. Stewart",
+        "checksum": "191e09f108cad068cc948d2347c9dfc7d245ec8189bcb2feb01d1c17f1b53454",
+        "played_date": "2025-02-05",
+        "played_time": "22:36",
+        "station": "Welle Nord",
+        "title": "Lily was here"
+    },
+    {
+        "time": "2025-02-13T21:23:53.554499Z",
+        "artist": "Electric Light Orchestra",
+        "checksum": "b0d138bad901b0a960821c98bec1c36663bcce6ec235b578aefbc05c803d8263",
+        "played_date": "2025-02-05",
+        "played_time": "22:32",
+        "station": "Welle Nord",
+        "title": "Don't bring me down"
+    },
+    {
+        "time": "2025-02-13T21:23:53.403073Z",
+        "artist": "Suzanne Vega & DNA",
+        "checksum": "2376fa8e40fb22bbe365a5505b3b3b56b67b1bc75cdc5edcae2b2b713165a2fd",
+        "played_date": "2025-02-05",
+        "played_time": "22:28",
+        "station": "Welle Nord",
+        "title": "Tom's Diner"
+    },
+    {
+        "time": "2025-02-13T21:23:53.243470Z",
+        "artist": "Al Jarreau",
+        "checksum": "22dd44b361a4c83fe3e10205ff8b67d584e6f01f8c65a33594bb4a0ee2a6c1f9",
+        "played_date": "2025-02-05",
+        "played_time": "22:24",
+        "station": "Welle Nord",
+        "title": "Mornin'"
+    },
+    {
+        "time": "2025-02-13T21:23:53.093135Z",
+        "artist": "Zo\u00eb Wees",
+        "checksum": "94a80984c641e05b8f65a258792b7122188084955a814e4ce19f27c07daafa41",
+        "played_date": "2025-02-05",
+        "played_time": "22:20",
+        "station": "Welle Nord",
+        "title": "Control"
+    },
+    {
+        "time": "2025-02-13T21:23:52.950105Z",
+        "artist": "Joe Cocker",
+        "checksum": "8a21730e25e355a08c73825dc714374111ff76bae8e2fd0c0fa8d6898b1ead19",
+        "played_date": "2025-02-05",
+        "played_time": "22:18",
+        "station": "Welle Nord",
+        "title": "You are so beautiful"
+    },
+    {
+        "time": "2025-02-13T21:23:52.818126Z",
+        "artist": "Queen",
+        "checksum": "8c731add00b377589d4eced08c8956ea021b538b50a84c4d935ecf9db7deb13b",
+        "played_date": "2025-02-05",
+        "played_time": "22:14",
+        "station": "Welle Nord",
+        "title": "Another one bites the dust"
+    },
+    {
+        "time": "2025-02-13T21:23:52.513468Z",
+        "artist": "Tim Bendzko",
+        "checksum": "e028129d504d0e4d8d3b7f1e773d587ac7d94bfc058304afc15fa3c9fcc5b727",
+        "played_date": "2025-02-05",
+        "played_time": "22:11",
+        "station": "Welle Nord",
+        "title": "Nur noch kurz die Welt retten"
+    },
+    {
+        "time": "2025-02-13T21:23:52.297652Z",
+        "artist": "Smokie",
+        "checksum": "fc2395123ce877b133f9706592851ca1e02d51dfe6819cbe3183120240d92b53",
+        "played_date": "2025-02-05",
+        "played_time": "22:07",
+        "station": "Welle Nord",
+        "title": "If you think you know how to love me"
+    },
+    {
+        "time": "2025-02-13T21:23:52.066445Z",
+        "artist": "Cock Robin",
+        "checksum": "8d5027a49a6137e951dd756c8094e40b47004d126c24e889f7d8234bf1e07b3e",
+        "played_date": "2025-02-05",
+        "played_time": "22:03",
+        "station": "Welle Nord",
+        "title": "When your heart is weak"
+    },
+    {
+        "time": "2025-02-13T21:23:51.800666Z",
+        "artist": "Bee Gees",
+        "checksum": "37dcd079e7f4d91d7930efad2872cdfb3b42997a275f4032465fffbdfd41db88",
+        "played_date": "2025-02-04",
+        "played_time": "22:55",
+        "station": "Welle Nord",
+        "title": "Tragedy"
+    },
+    {
+        "time": "2025-02-13T21:23:51.586054Z",
+        "artist": "Crowded House",
+        "checksum": "91f17624325c7fab6949343b2c02d9b4d1598117c37de2cbd03314a391d59a76",
+        "played_date": "2025-02-04",
+        "played_time": "22:51",
+        "station": "Welle Nord",
+        "title": "Don't dream it's over"
+    },
+    {
+        "time": "2025-02-13T21:23:51.290981Z",
+        "artist": "Justin Wellington feat. Small Jam",
+        "checksum": "7ca8f4c529f601fe770e5841133ba589280a2516088bb1d267edbc87fb01a3d3",
+        "played_date": "2025-02-04",
+        "played_time": "22:49",
+        "station": "Welle Nord",
+        "title": "Iko Iko"
+    },
+    {
+        "time": "2025-02-13T21:23:51.031591Z",
+        "artist": "Harpo",
+        "checksum": "63b64d23522e783436e08b804c02908c7660e1ac69ad937026c6a5bda6f58205",
+        "played_date": "2025-02-04",
+        "played_time": "22:45",
+        "station": "Welle Nord",
+        "title": "Moviestar"
+    },
+    {
+        "time": "2025-02-13T21:23:50.912013Z",
+        "artist": "Ryan Paris",
+        "checksum": "2664800938210b51fcc92daf54cb806c161a49533e4fcb6e97bfb48ac2b73a6b",
+        "played_date": "2025-02-04",
+        "played_time": "22:41",
+        "station": "Welle Nord",
+        "title": "Dolce vita"
+    },
+    {
+        "time": "2025-02-13T21:23:50.762511Z",
+        "artist": "Phil Collins",
+        "checksum": "9fcdcefd69af3ba19a9c6a5a8ff36101aa9db9f61837c0a9e4432c1525fda9c4",
+        "played_date": "2025-02-04",
+        "played_time": "22:37",
+        "station": "Welle Nord",
+        "title": "True colors"
+    },
+    {
+        "time": "2025-02-13T21:23:50.605039Z",
+        "artist": "Eagles",
+        "checksum": "9f5402c71f806b8660374da8095323c16592131983c3aef9422b3ff946d72134",
+        "played_date": "2025-02-04",
+        "played_time": "22:31",
+        "station": "Welle Nord",
+        "title": "Hotel California"
+    },
+    {
+        "time": "2025-02-13T21:23:50.459697Z",
+        "artist": "Shakespears Sister",
+        "checksum": "a92108d916602687a996b088e18e3f5f5b8a58a92262eadca6369dd61e1aa512",
+        "played_date": "2025-02-04",
+        "played_time": "22:27",
+        "station": "Welle Nord",
+        "title": "Hello (turn your radio on)"
+    },
+    {
+        "time": "2025-02-13T21:23:50.334295Z",
+        "artist": "Herbert Gr\u00f6nemeyer",
+        "checksum": "2a872aa9b67606ca7b9db942d51900ab7ffab18c72bf93b30664df48206e4ec8",
+        "played_date": "2025-02-04",
+        "played_time": "22:23",
+        "station": "Welle Nord",
+        "title": "Kinder an die Macht"
+    },
+    {
+        "time": "2025-02-13T21:23:50.182673Z",
+        "artist": "Monkees",
+        "checksum": "b2487d73c9775c761f7771f65e65f0743eecdee2eb1dbb4d9089d3b53a7a40fd",
+        "played_date": "2025-02-04",
+        "played_time": "22:21",
+        "station": "Welle Nord",
+        "title": "I'm a believer"
+    },
+    {
+        "time": "2025-02-13T21:23:50.022573Z",
+        "artist": "Texas",
+        "checksum": "9cbd8ddf138b34f1110df65df63c385c7ee98fc5615a51743c982c1c969d7938",
+        "played_date": "2025-02-04",
+        "played_time": "22:17",
+        "station": "Welle Nord",
+        "title": "Summer son"
+    },
+    {
+        "time": "2025-02-13T21:23:49.875651Z",
+        "artist": "Chicago",
+        "checksum": "fa5f5fb8740c855d3fd0db9078c2276cee0f03657c74f7e71d859bb20e197dbe",
+        "played_date": "2025-02-04",
+        "played_time": "22:13",
+        "station": "Welle Nord",
+        "title": "If you leave me now"
+    },
+    {
+        "time": "2025-02-13T21:23:49.752057Z",
+        "artist": "Olly Murs",
+        "checksum": "2ae639b5ae27f465778bf29278dc6b90a846d22db052af5bc4edaa2b5f532cf1",
+        "played_date": "2025-02-04",
+        "played_time": "22:10",
+        "station": "Welle Nord",
+        "title": "Dear darlin'"
+    },
+    {
+        "time": "2025-02-13T21:23:49.591519Z",
+        "artist": "Supertramp",
+        "checksum": "0685988e2813de8406c3c0a5614e1a5bcf176d1af4df0ffbd876efb579ac50e4",
+        "played_date": "2025-02-04",
+        "played_time": "22:07",
+        "station": "Welle Nord",
+        "title": "Breakfast in America"
+    },
+    {
+        "time": "2025-02-13T21:23:49.440374Z",
+        "artist": "Cutting Crew",
+        "checksum": "294cdf2646c43f04eedb93d329d9ddc4530b1652759e9a4e93f29e968dec4721",
+        "played_date": "2025-02-04",
+        "played_time": "22:03",
+        "station": "Welle Nord",
+        "title": "I just died in your arms"
+    },
+    {
+        "time": "2025-02-13T21:23:49.089044Z",
+        "artist": "Milow",
+        "checksum": "e5d4ba6fc2bdf34ba378bc3a1511df59f70e0389611a48f268d5e6507b56c2fa",
+        "played_date": "2025-02-06",
+        "played_time": "22:58",
+        "station": "Welle Nord",
+        "title": "Howling at the moon"
+    },
+    {
+        "time": "2025-02-13T21:23:48.969377Z",
+        "artist": "T. Rex",
+        "checksum": "aa44716f929b0b6c88fd2e07e93994343752a9d249046b55483d8a26a0ab6919",
+        "played_date": "2025-02-06",
+        "played_time": "22:53",
+        "station": "Welle Nord",
+        "title": "Get it on"
+    },
+    {
+        "time": "2025-02-13T21:23:48.826289Z",
+        "artist": "Eurythmics",
+        "checksum": "c95bfcc81816336ff7913b1a7332d450c015276e514143fc3a64940cb1417caa",
+        "played_date": "2025-02-06",
+        "played_time": "22:49",
+        "station": "Welle Nord",
+        "title": "The miracle of love"
+    },
+    {
+        "time": "2025-02-13T21:23:48.683990Z",
+        "artist": "Leony",
+        "checksum": "30b797689228fe7cbfbdef3a6e105c57302abe86cccc20b20950602f4c9d7b4d",
+        "played_date": "2025-02-06",
+        "played_time": "22:46",
+        "station": "Welle Nord",
+        "title": "Simple life"
+    },
+    {
+        "time": "2025-02-13T21:23:48.538081Z",
+        "artist": "Bob Marley",
+        "checksum": "c934bf7565c507302081f84898cf617c432f97ff59f3115f74689082e369111f",
+        "played_date": "2025-02-06",
+        "played_time": "22:42",
+        "station": "Welle Nord",
+        "title": "Could you be loved"
+    },
+    {
+        "time": "2025-02-13T21:23:48.416991Z",
+        "artist": "Jennifer Rush",
+        "checksum": "f0f95cb3584c986924034940104efed3904cf1f29d8897c82499e6bc5ecb2c20",
+        "played_date": "2025-02-06",
+        "played_time": "22:39",
+        "station": "Welle Nord",
+        "title": "Destiny"
+    },
+    {
+        "time": "2025-02-13T21:23:48.268763Z",
+        "artist": "The Cure",
+        "checksum": "b2fbfbff888e589027f048a5d784a91c7c2e5aa337b5682f44c52d313d5699ee",
+        "played_date": "2025-02-06",
+        "played_time": "22:36",
+        "station": "Welle Nord",
+        "title": "Friday I'm in love"
+    },
+    {
+        "time": "2025-02-13T21:23:48.122462Z",
+        "artist": "George McCrae",
+        "checksum": "4819edae3b365d6d5d8c9675c6aee9c952a359b9fb475d37d8f2ab43eb42173f",
+        "played_date": "2025-02-06",
+        "played_time": "22:32",
+        "station": "Welle Nord",
+        "title": "Rock your baby"
+    },
+    {
+        "time": "2025-02-13T21:23:47.980687Z",
+        "artist": "Shakira",
+        "checksum": "c30935fdb0e0fe3d96ff207bda6c8a0ef1d3238beede69fecf56a98b60202863",
+        "played_date": "2025-02-06",
+        "played_time": "22:28",
+        "station": "Welle Nord",
+        "title": "Underneath your clothes"
+    },
+    {
+        "time": "2025-02-13T21:23:47.864774Z",
+        "artist": "Bryan Adams",
+        "checksum": "0465fe2c7cd0e9d42577131f1102459e5a143bcd04ee3d64c315ff7a1587c057",
+        "played_date": "2025-02-06",
+        "played_time": "22:25",
+        "station": "Welle Nord",
+        "title": "Summer of '69"
+    },
+    {
+        "time": "2025-02-13T21:23:47.722874Z",
+        "artist": "Beatles",
+        "checksum": "b26c6ccc683f528d43f28514fd7189d112ebbe6b0963f80c08be801214622201",
+        "played_date": "2025-02-06",
+        "played_time": "22:22",
+        "station": "Welle Nord",
+        "title": "Here comes the sun"
+    },
+    {
+        "time": "2025-02-13T21:23:47.581449Z",
+        "artist": "Don Johnson",
+        "checksum": "80dca0d17948a776c7c3d67e095d304e73dc1efe3c15812932733a75901cae3b",
+        "played_date": "2025-02-06",
+        "played_time": "22:18",
+        "station": "Welle Nord",
+        "title": "Tell it like it is"
+    },
+    {
+        "time": "2025-02-13T21:23:47.435016Z",
+        "artist": "Bee Gees",
+        "checksum": "5a344e6e825a69170584364823dab9ea77d49ef944c58037d096ce6d4f456547",
+        "played_date": "2025-02-06",
+        "played_time": "22:13",
+        "station": "Welle Nord",
+        "title": "Stayin' alive"
+    },
+    {
+        "time": "2025-02-13T21:23:47.311874Z",
+        "artist": "Udo Lindenberg",
+        "checksum": "0b5cf8641449e4cd904e661e2336e7b8a59ba3b2d372989ae6ee6831a6f1bb5a",
+        "played_date": "2025-02-06",
+        "played_time": "22:09",
+        "station": "Welle Nord",
+        "title": "Mein Ding"
+    },
+    {
+        "time": "2025-02-13T21:23:47.146146Z",
+        "artist": "Lobo",
+        "checksum": "c8f2e15c33e7ff41b35637e47a72a9b3e1e54e02b603bf3372f3e574438cf439",
+        "played_date": "2025-02-06",
+        "played_time": "22:06",
+        "station": "Welle Nord",
+        "title": "I'd love you to want me"
+    },
+    {
+        "time": "2025-02-13T21:23:46.985504Z",
+        "artist": "Phil Collins",
+        "checksum": "474135665ca2ee8de85fc260c495c7f27b92bef989545df374b158b4c2d4efa0",
+        "played_date": "2025-02-06",
+        "played_time": "22:03",
+        "station": "Welle Nord",
+        "title": "You can't hurry love"
+    },
+    {
+        "time": "2025-02-13T21:23:46.731215Z",
+        "artist": "Juanes",
+        "checksum": "5b9d72e00895f4b1d4d41833bd4cc0c9c990a9009ca4202d875ed326cc845977",
+        "played_date": "2025-02-12",
+        "played_time": "22:58",
+        "station": "Welle Nord",
+        "title": "La camisa negra"
+    },
+    {
+        "time": "2025-02-13T21:23:46.614386Z",
+        "artist": "Barry White",
+        "checksum": "6dca1eecb0d9d15dda532d440e41d2d05054e555a3f4dc1a21c932d260681119",
+        "played_date": "2025-02-12",
+        "played_time": "22:55",
+        "station": "Welle Nord",
+        "title": "You see the trouble with me"
+    },
+    {
+        "time": "2025-02-13T21:23:46.472096Z",
+        "artist": "A-ha",
+        "checksum": "9c432e9a0b4bfd5a091c49083d361cd9a73d704afa0d5564684a6d6c3ba47c08",
+        "played_date": "2025-02-12",
+        "played_time": "22:51",
+        "station": "Welle Nord",
+        "title": "Crying in the rain"
+    },
+    {
+        "time": "2025-02-13T21:23:46.267355Z",
+        "artist": "Lewis Capaldi",
+        "checksum": "f4c1a862f6e226aa71b1aa90cd2a5db4bdcf3ab67b49879be1eb4fb1d82288fb",
+        "played_date": "2025-02-12",
+        "played_time": "22:49",
+        "station": "Welle Nord",
+        "title": "Someone you loved"
+    },
+    {
+        "time": "2025-02-13T21:23:46.016034Z",
+        "artist": "Leo Sayer",
+        "checksum": "9b142e3b63815c6d1a6fb70a947f0d11b981ddd34f87fb402aad1d0ecf2d2df6",
+        "played_date": "2025-02-12",
+        "played_time": "22:45",
+        "station": "Welle Nord",
+        "title": "More than I can say"
+    },
+    {
+        "time": "2025-02-13T21:23:45.899490Z",
+        "artist": "Diana Ross",
+        "checksum": "9fd5156aeb03103f11b5c6068f098d21a72aeeff3a063029f5469575f16cc003",
+        "played_date": "2025-02-12",
+        "played_time": "22:41",
+        "station": "Welle Nord",
+        "title": "Chain reaction"
+    },
+    {
+        "time": "2025-02-13T21:23:45.757413Z",
+        "artist": "Coldplay",
+        "checksum": "b252a237f23d7b48ee785b648c70535f72024c54b74c230bbeebf5f391425c4a",
+        "played_date": "2025-02-12",
+        "played_time": "22:37",
+        "station": "Welle Nord",
+        "title": "Clocks"
+    },
+    {
+        "time": "2025-02-13T21:23:45.606538Z",
+        "artist": "Stevie Wonder",
+        "checksum": "a42e72f5983ed6209dc6639c17b20a781e4f7246b8967978efd9c0ade7730c78",
+        "played_date": "2025-02-12",
+        "played_time": "22:33",
+        "station": "Welle Nord",
+        "title": "I just called to say I love you"
+    },
+    {
+        "time": "2025-02-13T21:23:45.462609Z",
+        "artist": "Joshua Kadison",
+        "checksum": "a151e199a49a69fddeb25fb9f93b7c53d9d456089b2e39ea06036aaa0706c9be",
+        "played_date": "2025-02-12",
+        "played_time": "22:29",
+        "station": "Welle Nord",
+        "title": "Jessie"
+    },
+    {
+        "time": "2025-02-13T21:23:45.346118Z",
+        "artist": "Queen",
+        "checksum": "1b7028f127a602ddc5913a204c9e77e5d73e6938c9b58a7cf5424bf07f04eb5c",
+        "played_date": "2025-02-12",
+        "played_time": "22:25",
+        "station": "Welle Nord",
+        "title": "I want to break free"
+    },
+    {
+        "time": "2025-02-13T21:23:45.190764Z",
+        "artist": "Byrds",
+        "checksum": "80f86ec325d8ab17c7e772de0f000786ab9a0fa4065d68baef18c61c20c82079",
+        "played_date": "2025-02-12",
+        "played_time": "22:22",
+        "station": "Welle Nord",
+        "title": "Mr. Tambourine Man"
+    },
+    {
+        "time": "2025-02-13T21:23:44.204656Z",
+        "artist": "Michael Schulte",
+        "checksum": "90dd5173c5ee80593b75b0ac982134092a1650ed028b71c9c9a77aa43c1517be",
+        "played_date": "2025-02-13",
+        "played_time": "22:21",
+        "station": "Welle Nord",
+        "title": "Back to the start"
+    },
+    {
+        "time": "2025-02-13T21:23:44.045705Z",
+        "artist": "Dionne Warwick",
+        "checksum": "d147e60478453d2f73becb17cecd1821721db82275a25f97c7492b48277700fd",
+        "played_date": "2025-02-13",
+        "played_time": "22:17",
+        "station": "Welle Nord",
+        "title": "Heartbreaker"
+    },
+    {
+        "time": "2025-02-13T21:23:43.922817Z",
+        "artist": "Simply Red",
+        "checksum": "a92a9a8c0d3da3ddbc371b8ff47d3a14dd902e3814516c8398e5fef615d89e56",
+        "played_date": "2025-02-13",
+        "played_time": "22:13",
+        "station": "Welle Nord",
+        "title": "If you don't know me by now"
+    },
+    {
+        "time": "2025-02-13T21:23:43.773494Z",
+        "artist": "Adel Tawil",
+        "checksum": "ba26d97be06ba58560726139a93146f360d0adefa0b6b4a18837efc8f811cfb2",
+        "played_date": "2025-02-13",
+        "played_time": "22:10",
+        "station": "Welle Nord",
+        "title": "Lieder"
+    },
+    {
+        "time": "2025-02-13T21:23:43.628277Z",
+        "artist": "Dr. Hook",
+        "checksum": "c0d26865004bdadd86e529a28f4536d118567db728ebfaea25f234bfba65369a",
+        "played_date": "2025-02-13",
+        "played_time": "22:07",
+        "station": "Welle Nord",
+        "title": "When you're in love with a beautiful woman"
+    },
+    {
+        "time": "2025-02-13T21:23:43.501097Z",
+        "artist": "Chris DeBurgh",
+        "checksum": "b490a66a14d175ac2770db2ed5ba7d50744f1c4b6da6398cf2b8538b398ef45e",
+        "played_date": "2025-02-13",
+        "played_time": "22:03",
+        "station": "Welle Nord",
+        "title": "High on emotion"
+    },
+    {
+        "time": "2025-02-13T21:23:43.130517Z",
+        "artist": "Donna Summer",
+        "checksum": "608ffccc4c3baa08ca2b8a5efacd7ef7154adf37cf0ff5502c8c6a719ce4b194",
+        "played_date": "2025-02-07",
+        "played_time": "21:59",
+        "station": "Welle Nord",
+        "title": "Hot stuff"
+    },
+    {
+        "time": "2025-02-13T21:23:42.955966Z",
+        "artist": "Cock Robin",
+        "checksum": "a2a860e23817ded24a202820b8399677bdc4e9d4c158bac52f7fbf48aee1adf2",
+        "played_date": "2025-02-07",
+        "played_time": "21:55",
+        "station": "Welle Nord",
+        "title": "The promise you made"
+    },
+    {
+        "time": "2025-02-13T21:23:42.806024Z",
+        "artist": "Orange Blue",
+        "checksum": "fecfcb1dad8b61495ac48424fa1bf137e732f87e1df6e29a89a07e0fd3bb0b53",
+        "played_date": "2025-02-07",
+        "played_time": "21:51",
+        "station": "Welle Nord",
+        "title": "She's got that light"
+    },
+    {
+        "time": "2025-02-13T21:23:42.687144Z",
+        "artist": "Rosa Linn",
+        "checksum": "ee27e48ffed141c4e3855d7d3024ee645be7884ac9ea341d241c928341addf71",
+        "played_date": "2025-02-07",
+        "played_time": "21:48",
+        "station": "Welle Nord",
+        "title": "Snap"
+    },
+    {
+        "time": "2025-02-13T21:23:42.530892Z",
+        "artist": "Lipps Inc.",
+        "checksum": "d237382f16d986bac76a6f987b73331fe621d57f34f4f288991060aeae5626fc",
+        "played_date": "2025-02-07",
+        "played_time": "21:44",
+        "station": "Welle Nord",
+        "title": "Funkytown"
+    },
+    {
+        "time": "2025-02-13T21:23:42.369321Z",
+        "artist": "Herbert Gr\u00f6nemeyer",
+        "checksum": "0f8836163881e84421aaabaf356a80ebf6e00d0004e2b4091934c2d8fa126094",
+        "played_date": "2025-02-07",
+        "played_time": "21:41",
+        "station": "Welle Nord",
+        "title": "Musik nur, wenn sie laut ist"
+    },
+    {
+        "time": "2025-02-13T21:23:42.209286Z",
+        "artist": "Mike Oldfield & Maggie Reilly",
+        "checksum": "265bf740188685a4ff6ba640ececb70f810c45ac51c9950469d5ef30a3c6c4e4",
+        "played_date": "2025-02-07",
+        "played_time": "21:36",
+        "station": "Welle Nord",
+        "title": "To France"
+    },
+    {
+        "time": "2025-02-13T21:23:42.087900Z",
+        "artist": "Nazareth",
+        "checksum": "75bce63f6c69ece0f6f65bee6d3902d91b12dcca42d042d775dd6c3341c17d9e",
+        "played_date": "2025-02-07",
+        "played_time": "21:33",
+        "station": "Welle Nord",
+        "title": "Love hurts"
+    },
+    {
+        "time": "2025-02-13T21:23:41.937239Z",
+        "artist": "Kylie Minogue & Rob Davis",
+        "checksum": "3f37088c9233c54d1e086c68704e36c6ecce3fc31067c7e3af0dd5a00ddce9db",
+        "played_date": "2025-02-07",
+        "played_time": "21:29",
+        "station": "Welle Nord",
+        "title": "Can't get you out of my head"
+    },
+    {
+        "time": "2025-02-13T21:23:41.784040Z",
+        "artist": "Milli Vanilli",
+        "checksum": "03fb4d93219a5c3b8baec4fdecfce07e28a73debc8201c046d2f9426064037af",
+        "played_date": "2025-02-07",
+        "played_time": "21:25",
+        "station": "Welle Nord",
+        "title": "Girl I'm gonna miss you"
+    },
+    {
+        "time": "2025-02-13T21:23:41.635330Z",
+        "artist": "George Harrison",
+        "checksum": "ea4a5a355882bb60ba188da68131fc75454016a8f36e1664a2cbcb4c9faf22fb",
+        "played_date": "2025-02-07",
+        "played_time": "21:21",
+        "station": "Welle Nord",
+        "title": "My sweet Lord"
+    },
+    {
+        "time": "2025-02-13T21:23:41.502513Z",
+        "artist": "Cher",
+        "checksum": "7384cb66a62fc97cd8d8bb1a04f8c3ffb226063780d26e57ef9f7194d1e7700b",
+        "played_date": "2025-02-07",
+        "played_time": "21:18",
+        "station": "Welle Nord",
+        "title": "The shoop shoop song (It's in his kiss)"
+    },
+    {
+        "time": "2025-02-13T21:23:41.352863Z",
+        "artist": "America",
+        "checksum": "9f2fbaf960e5886237fe5c9a5778a0060bca971656f20002a7a4b4a06018bcea",
+        "played_date": "2025-02-07",
+        "played_time": "21:14",
+        "station": "Welle Nord",
+        "title": "A horse with no name"
+    },
+    {
+        "time": "2025-02-13T21:23:41.202188Z",
+        "artist": "Reamonn",
+        "checksum": "b307635a50cd071706ff64f1f6ea552722bfba5377f5e6ee07b0ca0b7d8cd74a",
+        "played_date": "2025-02-07",
+        "played_time": "21:11",
+        "station": "Welle Nord",
+        "title": "Tonight"
+    },
+    {
+        "time": "2025-02-13T21:23:41.057061Z",
+        "artist": "Sheila B. Devotion",
+        "checksum": "939cb0dfbefed59e5d1ba7974416673adaa31aef57bb7068aaea7a2c6945f6f7",
+        "played_date": "2025-02-07",
+        "played_time": "21:07",
+        "station": "Welle Nord",
+        "title": "Spacer"
+    },
+    {
+        "time": "2025-02-13T21:23:40.939310Z",
+        "artist": "Phil Collins",
+        "checksum": "403948d4b25acc5a3bc5bb9fcb55b6ffd4e22ce0e9648080dca7ddf440616831",
+        "played_date": "2025-02-07",
+        "played_time": "21:03",
+        "station": "Welle Nord",
+        "title": "Another day in paradise"
+    },
+    {
+        "time": "2025-02-13T21:23:38.397929Z",
+        "artist": "Bellamy Brothers",
+        "checksum": "38f94cad6229f3b58b92eb5bfb4149623d43dd4268ed7da2d27c2b4517297dbb",
+        "played_date": "2025-02-10",
+        "played_time": "21:58",
+        "station": "Welle Nord",
+        "title": "Let your love flow"
+    },
+    {
+        "time": "2025-02-13T21:23:38.275291Z",
+        "artist": "Bruce Springsteen",
+        "checksum": "73f5f2afe75844a562c35a9dd2d999b0c4277a7f15346ec0da18f21272908727",
+        "played_date": "2025-02-10",
+        "played_time": "21:53",
+        "station": "Welle Nord",
+        "title": "Human touch"
+    },
+    {
+        "time": "2025-02-13T21:23:38.134046Z",
+        "artist": "Diana Ross & The Supremes",
+        "checksum": "a89034654456d6b9250f957b00b36664afaf630d31411e62b97466ec92d22af5",
+        "played_date": "2025-02-10",
+        "played_time": "21:50",
+        "station": "Welle Nord",
+        "title": "Stop! In the name of love"
+    },
+    {
+        "time": "2025-02-13T21:23:37.978926Z",
+        "artist": "Tracy Chapman",
+        "checksum": "fc7675fdc898f0682615af3c88d882fc9e06f7cae12322c23a3ffb799b38837a",
+        "played_date": "2025-02-10",
+        "played_time": "21:45",
+        "station": "Welle Nord",
+        "title": "Fast car"
+    },
+    {
+        "time": "2025-02-13T21:23:37.827464Z",
+        "artist": "A-ha",
+        "checksum": "f0657defc843abf80793136e3a895ee961f2fb9c8ab765d7671867bbb6c90424",
+        "played_date": "2025-02-10",
+        "played_time": "21:42",
+        "station": "Welle Nord",
+        "title": "Foot of the mountain"
+    },
+    {
+        "time": "2025-02-13T21:23:37.697229Z",
+        "artist": "Agnetha F\u00e4ltskog",
+        "checksum": "2900b06663a2be2d2b38b6eb41215586f68efc944f6d3b1e746a785c41213156",
+        "played_date": "2025-02-10",
+        "played_time": "21:37",
+        "station": "Welle Nord",
+        "title": "Wrap your arms around me"
+    },
+    {
+        "time": "2025-02-13T21:23:37.572743Z",
+        "artist": "Hot Chocolate",
+        "checksum": "04a098bb1f677738c90a72884099a0013ed5ec1e38b749bbb0d1ba67867e61ba",
+        "played_date": "2025-02-10",
+        "played_time": "21:33",
+        "station": "Welle Nord",
+        "title": "You sexy thing"
+    },
+    {
+        "time": "2025-02-13T21:23:37.427124Z",
+        "artist": "Herbert Gr\u00f6nemeyer",
+        "checksum": "ba8832dfd9d419185b69404258a736c772cb136639b483f1868bcbb3f9bd54c6",
+        "played_date": "2025-02-10",
+        "played_time": "21:28",
+        "station": "Welle Nord",
+        "title": "Mensch"
+    },
+    {
+        "time": "2025-02-13T21:23:37.281793Z",
+        "artist": "Whitney Houston",
+        "checksum": "cf9e63a95f8816747fd5b3c60b204ad774f6915c8cb4a7d4e49bc3c06cca860b",
+        "played_date": "2025-02-10",
+        "played_time": "21:24",
+        "station": "Welle Nord",
+        "title": "One moment in time"
+    },
+    {
+        "time": "2025-02-13T21:23:37.138011Z",
+        "artist": "Harry Styles",
+        "checksum": "d8f45bb76234fe48e42f6058788940d510904c99507b03cc6a011001d0a7393c",
+        "played_date": "2025-02-10",
+        "played_time": "21:21",
+        "station": "Welle Nord",
+        "title": "As it was"
+    },
+    {
+        "time": "2025-02-13T21:23:37.023013Z",
+        "artist": "Electric Light Orchestra",
+        "checksum": "d8d5cab9a71de215c5349b42c266305bb307e68f98bc3b7b4c720fc8034b39e1",
+        "played_date": "2025-02-10",
+        "played_time": "21:18",
+        "station": "Welle Nord",
+        "title": "Livin' thing"
+    },
+    {
+        "time": "2025-02-13T21:23:36.870314Z",
+        "artist": "Cars",
+        "checksum": "7dad10ab3df88647e522f4559de412ae664dca46f6069e522b228d99224bbdbe",
+        "played_date": "2025-02-10",
+        "played_time": "21:14",
+        "station": "Welle Nord",
+        "title": "Drive"
+    },
+    {
+        "time": "2025-02-13T21:23:36.722540Z",
+        "artist": "Gotye & Kimbra",
+        "checksum": "815763bcb2ed423b25234012c996b772a5d1bf11fa81710b22ae5a5cf1b3d503",
+        "played_date": "2025-02-10",
+        "played_time": "21:10",
+        "station": "Welle Nord",
+        "title": "Somebody that I used to know"
+    },
+    {
+        "time": "2025-02-13T21:23:36.573020Z",
+        "artist": "Smokie",
+        "checksum": "a447f8511295a64eb7b645ce9168ad54b58b714b63bd4e923430637605e5f2a6",
+        "played_date": "2025-02-10",
+        "played_time": "21:06",
+        "station": "Welle Nord",
+        "title": "Living next door to Alice"
+    },
+    {
+        "time": "2025-02-13T21:23:36.438350Z",
+        "artist": "Madness",
+        "checksum": "11273b59f5d9b554cb53229ccabfff55f620e7da89a38e9d516e3775db986612",
+        "played_date": "2025-02-10",
+        "played_time": "21:03",
+        "station": "Welle Nord",
+        "title": "Our house"
+    },
+    {
+        "time": "2025-02-13T21:23:36.084925Z",
+        "artist": "Mr. Big",
+        "checksum": "8c6bf5f5164d6c4c4230ab4106b66d4ca3327192e3d777dde66743d2f11b10ac",
+        "played_date": "2025-02-08",
+        "played_time": "21:59",
+        "station": "Welle Nord",
+        "title": "To be with you"
+    },
+    {
+        "time": "2025-02-13T21:23:35.938275Z",
+        "artist": "Styx",
+        "checksum": "261b41aaa94bf298fdd2720a095446af4b9c9ab843134742cb0b03ea7e7670fe",
+        "played_date": "2025-02-08",
+        "played_time": "21:56",
+        "station": "Welle Nord",
+        "title": "Boat on the river"
+    },
+    {
+        "time": "2025-02-13T21:23:35.791978Z",
+        "artist": "Billy Joel",
+        "checksum": "01a13abdf81bf6f292370e9d7e64505fa0d7495c9c1df0df1a6e432707df42d3",
+        "played_date": "2025-02-08",
+        "played_time": "21:52",
+        "station": "Welle Nord",
+        "title": "The longest time"
+    },
+    {
+        "time": "2025-02-13T21:23:35.664440Z",
+        "artist": "Bon Jovi",
+        "checksum": "13f01e6c4782c374398ce81e2517b5c86771f673143e4738736d87390f3eb586",
+        "played_date": "2025-02-08",
+        "played_time": "21:47",
+        "station": "Welle Nord",
+        "title": "Bed of roses"
+    },
+    {
+        "time": "2025-02-13T21:23:35.503211Z",
+        "artist": "Monkees",
+        "checksum": "3714979b6fafc29e5ca0d3e965d0332a05c6947734f4bb4558fe43df77d15cc2",
+        "played_date": "2025-02-08",
+        "played_time": "21:45",
+        "station": "Welle Nord",
+        "title": "Daydream believer"
+    },
+    {
+        "time": "2025-02-13T21:23:35.350373Z",
+        "artist": "Tom Petty & The Heartbreakers",
+        "checksum": "95b32605d28830f9dd7b6ea43b6ae7f8c90e21630d747a82bfa26de8ad81f96b",
+        "played_date": "2025-02-08",
+        "played_time": "21:42",
+        "station": "Welle Nord",
+        "title": "I won't back down"
+    },
+    {
+        "time": "2025-02-13T21:23:35.200311Z",
+        "artist": "Killers",
+        "checksum": "1ba8f8d8b322119ad723fc5f9354bff2b73021f6a61006a71c22e2671d4af6f6",
+        "played_date": "2025-02-08",
+        "played_time": "21:38",
+        "station": "Welle Nord",
+        "title": "Human"
+    },
+    {
+        "time": "2025-02-13T21:23:35.080322Z",
+        "artist": "Whitney Houston",
+        "checksum": "abb776e9104458c4e6c1927966f6a862a001a56dddee55e27cebe2861549518a",
+        "played_date": "2025-02-08",
+        "played_time": "21:33",
+        "station": "Welle Nord",
+        "title": "Didn't we almost have it all"
+    },
+    {
+        "time": "2025-02-13T21:23:34.932331Z",
+        "artist": "Gerry Rafferty",
+        "checksum": "d2496047e5c91d2f1ec57763dbd237ff7f072c6aa171e1507b3ae2fc6ebfe57e",
+        "played_date": "2025-02-08",
+        "played_time": "21:29",
+        "station": "Welle Nord",
+        "title": "Baker Street"
+    },
+    {
+        "time": "2025-02-13T21:23:34.782422Z",
+        "artist": "Bruce Hornsby",
+        "checksum": "1d243db0f3d1201530366d07b8850da200eaa08de5eeaecf5632e862e3394ff4",
+        "played_date": "2025-02-08",
+        "played_time": "21:25",
+        "station": "Welle Nord",
+        "title": "The way it is"
+    },
+    {
+        "time": "2025-02-13T21:23:34.634063Z",
+        "artist": "Johannes Oerding",
+        "checksum": "ea406ae9da25e6a1e60eda8fb081b107b9472e734f5ef5ab402eed1e82ad1fdf",
+        "played_date": "2025-02-08",
+        "played_time": "21:22",
+        "station": "Welle Nord",
+        "title": "An guten Tagen"
+    },
+    {
+        "time": "2025-02-13T21:23:34.513121Z",
+        "artist": "Bonnie Tyler",
+        "checksum": "bf0efab3044bcb1a1dd94891bdb03ec32760d0da3bf1d15938c5cfa0107873fd",
+        "played_date": "2025-02-08",
+        "played_time": "21:18",
+        "station": "Welle Nord",
+        "title": "Lost in France"
+    },
+    {
+        "time": "2025-02-13T21:23:34.361909Z",
+        "artist": "Foreigner",
+        "checksum": "5f09680e01b7e9abfb315289af90f20a797fdefde8321452bb28c025f2e964a4",
+        "played_date": "2025-02-08",
+        "played_time": "21:14",
+        "station": "Welle Nord",
+        "title": "Waiting for a girl like you"
+    },
+    {
+        "time": "2025-02-13T21:23:34.199146Z",
+        "artist": "Nelly Furtado",
+        "checksum": "88b685af9c79e7b1a20471bafe2281cfdb65437d45b0ae59a7499dd5731a20d1",
+        "played_date": "2025-02-08",
+        "played_time": "21:10",
+        "station": "Welle Nord",
+        "title": "All good things (come to an end)"
+    },
+    {
+        "time": "2025-02-13T21:23:34.041630Z",
+        "artist": "Kool & The Gang",
+        "checksum": "74c60d88c24fcc15811dabe392b364d82a19d734c8cbba5026508354d0e4edc0",
+        "played_date": "2025-02-08",
+        "played_time": "21:07",
+        "station": "Welle Nord",
+        "title": "Ladies night"
+    },
+    {
+        "time": "2025-02-13T21:23:33.887235Z",
+        "artist": "Nick Kamen",
+        "checksum": "b6f2118670ecd40318f4ee6cfc9d1c13988031bacc86b9982b8460bd167e7bd8",
+        "played_date": "2025-02-08",
+        "played_time": "21:03",
+        "station": "Welle Nord",
+        "title": "I promised myself"
+    },
+    {
+        "time": "2025-02-13T21:23:33.685381Z",
+        "artist": "Kenny Loggins",
+        "checksum": "e4a919c38c4a891b923b32f61316cf164a4501aa11051c09f988cba777ba0ab0",
+        "played_date": "2025-02-09",
+        "played_time": "21:57",
+        "station": "Welle Nord",
+        "title": "Footloose"
+    },
+    {
+        "time": "2025-02-13T21:23:33.519468Z",
+        "artist": "Peter Gabriel",
+        "checksum": "983bcfba586bbf954727829f0a81986c4484dfb9db3530a4c8b78b8a93f5448b",
+        "played_date": "2025-02-09",
+        "played_time": "21:53",
+        "station": "Welle Nord",
+        "title": "Solsbury Hill"
+    },
+    {
+        "time": "2025-02-13T21:23:33.376155Z",
+        "artist": "Nathan Evans",
+        "checksum": "1c60611412f742309771ac5239cf200f5bd7353cef91c1f32e002b03bafe745c",
+        "played_date": "2025-02-09",
+        "played_time": "21:50",
+        "station": "Welle Nord",
+        "title": "Wellerman (Sea Shanty)"
+    },
+    {
+        "time": "2025-02-13T21:23:33.225829Z",
+        "artist": "Buggles",
+        "checksum": "40d7302c8506aecc4f6cf550b676ebeb18d5b83afabc5df29511839b38c293cd",
+        "played_date": "2025-02-09",
+        "played_time": "21:47",
+        "station": "Welle Nord",
+        "title": "Video killed the radio star"
+    }
+]
