@@ -1,0 +1,18 @@
+# Ignoriere Python spezifische Verzeichnisse und Dateien
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignoriere virtuelle Python-Umgebungen
+venv/
+.env/
+*.env
+
+# Ignoriere Editor spezifische Dateien (Optional)
+.vscode/
+.idea/
+*.swp
+
+# Ignoriere Log-Dateien
+*.log

@@ -1,9 +1,9 @@
 {
-  "influx_host": "192.168.178.40",
+  "influx_host": "192.168.178.100",
   "influx_port": 8086,
   "influx_user": "admin",
   "influx_password": "admin",
-  "influx_db": "influx",
-  "num_days": 1,
+  "influx_db": "scraper",
+  "num_days": 4,
   "num_entries":10
 }
