@@ -1,5 +1,5 @@
 # Ignoriere Python spezifische Verzeichnisse und Dateien
-__pycache__/
+**/__pycache__/
 *.pyc
 *.pyo
 *.pyd
