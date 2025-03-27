@@ -4,6 +4,7 @@
   "influx_user": "admin",
   "influx_password": "admin",
   "influx_db": "scraper",
-  "num_days": 4,
-  "num_entries":10
+  "num_days": 20,
+  "num_entries": 10,
+  "max_parallel_requests": 10
 }

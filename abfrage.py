@@ -1,22 +1,18 @@
-# abfrage.py
-
 import asyncio
 import json
 import csv
 import aiohttp  # Für asynchrone HTTP-Anfragen
 from datetime import datetime, timedelta
 from asyncio import Semaphore
+import threading
+from tqdm import tqdm
 
-from functions.fetch_data import fetch_playlist  # Neu: Erwartet keinen Semaphore-Parameter mehr
+from functions.fetch_data import fetch_playlist
 from functions.scrape_playlist import scrape_playlist
 from functions.influxdb import initialize_influxdb, write_to_influxdb
 
 
 def load_config_and_stations():
-    """
-    Lädt die Konfigurationsdatei und die Liste der Radiostationen.
-    Überprüft, ob alle benötigten Konfigurationswerte vorhanden sind.
-    """
     with open('config/config.json', 'r') as config_file:
         config = json.load(config_file)
 
@@ -40,11 +36,24 @@ def load_config_and_stations():
     return config, stations
 
 
+def input_with_timeout(prompt, timeout=5):
+    user_input = [None]
+
+    def get_input():
+        user_input[0] = input(prompt)
+
+    thread = threading.Thread(target=get_input)
+    thread.daemon = True
+    thread.start()
+    thread.join(timeout)
+
+    if thread.is_alive():
+        print(f"\nKeine Eingabe nach {timeout} Sekunden. Starte mit 'alle'.")
+        return "alle"
+    return user_input[0]
+
+
 def parse_station_selection(choice, stations):
-    """
-    Parst die vom Benutzer eingegebene Auswahl und gibt eine Liste der ausgewählten Stationen zurück.
-    Unterstützt sowohl einfache Zahlen als auch Bereiche (z.B. 1-3, 2,4).
-    """
     selected_stations = []
     for part in choice.split(','):
         if '-' in part:
@@ -66,16 +75,15 @@ def parse_station_selection(choice, stations):
 
 
 def select_stations(stations):
-    """
-    Erlaubt dem Benutzer, entweder alle Stationen auszuwählen oder bestimmte über Nummern.
-    Der Benutzer kann eine Range (z.B. 1-3) oder einzelne Nummern (z.B. 1,3,5) eingeben.
-    """
     print("Möchten Sie alle Stationen abfragen oder nur bestimmte?")
     print("Verfügbare Stationen:")
     for i, station in enumerate(stations):
         print(f"{i + 1}. {station['station_name']}")
 
-    choice = input("Geben Sie 'alle' für alle Stationen oder eine durch Komma getrennte Liste von Zahlen bzw. eine Range (z.B. 1-3) an: ").strip().lower()
+    choice = input_with_timeout(
+        "Geben Sie 'alle' für alle Stationen oder eine durch Komma getrennte Liste von Zahlen bzw. eine Range (z.B. 1-3) an: ",
+        timeout=5
+    ).strip().lower()
 
     if choice == "alle":
         return stations
@@ -90,66 +98,53 @@ def select_stations(stations):
 
 
 async def fetch_data_for_day(session, semaphore, client, station, date):
-    """
-    Ruft die Playlist-Daten für eine bestimmte Radiostation und ein bestimmtes Datum ab.
-    Für jede Stunde des Tages wird eine HTTP-Anfrage durchgeführt, wobei die Anzahl gleichzeitiger
-    Anfragen durch den Semaphore begrenzt wird.
-    """
     for hour in range(24):
-        hour_str = str(hour).zfill(2)  # Format z.B. '01', '02', ...
+        hour_str = str(hour).zfill(2)
         formatted_url = f"{station['url']}?date={date}&hour={hour_str}"
 
-        # Begrenze die gleichzeitigen Requests über den Semaphore
         async with semaphore:
             html = await fetch_playlist(session, formatted_url)
 
         if html:
-            # Übergibt das Datum als Parameter, damit scrape_playlist den korrekten Tag verwendet
             data = scrape_playlist(html, station['station_name'], date_str=date)
             if data:
                 write_to_influxdb(client, data)
-                print(f"Daten in InfluxDB geschrieben für {station['station_name']} am {date}")
-            else:
-                print(f"Keine Daten gefunden für {station['station_name']} am {date}")
-        else:
-            print(f"Fehler beim Abrufen der Daten für {station['station_name']} am {date}")
+        # Debug-Ausgabe kann bei Bedarf hier bleiben oder entfernt werden
 
 
 async def fetch_data():
-    """
-    Hauptfunktion zur Erfassung von Playlisten-Daten über mehrere Tage und Stationen hinweg.
-    """
     config, stations = load_config_and_stations()
     num_days = config.get('num_days', 7)
+    max_parallel = config.get('max_parallel_requests', 10)
 
-    # Auswahl der Stationen durch den Benutzer
     stations_to_query = select_stations(stations)
     if not stations_to_query:
         print("Keine Stationen ausgewählt. Beende das Programm.")
         return
 
-    # Erzeuge eine Liste der letzten 'num_days' Tage (im Format YYYY-MM-DD)
     now = datetime.now()
     dates = [(now - timedelta(days=i)).strftime('%Y-%m-%d') for i in range(num_days)]
 
-    # InfluxDB-Verbindung initialisieren
     client = initialize_influxdb(config)
 
+    total_tasks = len(dates) * len(stations_to_query)
+    progress = tqdm(total=total_tasks, desc="Fortschritt")
+
     async with aiohttp.ClientSession() as session:
-        semaphore = Semaphore(10)  # Begrenze gleichzeitige HTTP-Requests auf 10
-        tasks = []
-        for date in dates:
-            for station in stations_to_query:
-                tasks.append(fetch_data_for_day(session, semaphore, client, station, date))
+        semaphore = Semaphore(max_parallel)
+
+        async def wrapped_task(station, date):
+            await fetch_data_for_day(session, semaphore, client, station, date)
+            progress.update(1)
+
+        tasks = [wrapped_task(station, date) for date in dates for station in stations_to_query]
         await asyncio.gather(*tasks)
 
+    progress.close()
     client.close()
 
 
 if __name__ == "__main__":
-    """
-    Startet das asynchrone Abrufen der Daten.
-    """
     try:
         asyncio.run(fetch_data())
     finally:
